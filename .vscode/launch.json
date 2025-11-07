@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Built-in PHP Server",
+            "type": "php",
+            "request": "launch",
+            "runtimeArgs": [
+                "-dxdebug.mode=debug",
+                "-dxdebug.start_with_request=yes",
+                "-S",
+                "localhost:8000"
+            ],
+            "program": "",
+            "cwd": "${workspaceRoot}",
+            "port": 9003,
+            "serverReadyAction": {
+                "pattern": "Development Server \\(https?://[^)]+\\) started",
+                "uriFormat": "http://localhost:8000",
+                "action": "openExternally"
+            }
+        }
+    ]
+}
