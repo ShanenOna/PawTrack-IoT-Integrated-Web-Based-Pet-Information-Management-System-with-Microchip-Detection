@@ -1,12 +1,11 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/admin-session.php");
+include(__DIR__ . "/../partials/admin-session.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <?php
 $pageTitle = "PawTrack - Audit Logs";
-include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
 ?>
 
 <body>
@@ -23,9 +22,21 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
             </div>
-            <div class="admin-nav-icon">
-                <i class="fa-solid fa-user"></i>
+            <?php if (session_status() !== PHP_SESSION_ACTIVE) session_start();
+            $adminId = $_SESSION['AdminID'] ?? '';
+            $adminPic = $_SESSION['AdminPic'] ?? '';
+            $adminName = trim(($_SESSION['AdminFName'] ?? '') . ' ' . ($_SESSION['AdminSName'] ?? ''));
+            $adminEmail = $_SESSION['AdminEmail'] ?? '';
+            ?>
+            <div class="admin-nav-icon" data-user-id="<?= htmlspecialchars($adminId) ?>" data-user-role="admin">
+                <?php if ($adminPic): ?>
+                    <img src="<?= htmlspecialchars($adminPic) ?>" alt="Admin avatar" class="user-avatar" style="width:28px;height:28px;border-radius:50%;object-fit:cover;" />
+                <?php else: ?>
+                    <i class="fa-solid fa-user"></i>
+                <?php endif; ?>
             </div>
+            <span class="user-name" style="display:none"><?= htmlspecialchars($adminName) ?></span>
+            <span class="user-email" style="display:none"><?= htmlspecialchars($adminEmail) ?></span>
         </div>
     </nav>
 
@@ -34,15 +45,15 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
         <!-- Sidebar -->
         <aside class="admin-sidebar">
             <div class="admin-profile-card">
-                <img src="/pawtrack/storage/images/admin/<?= $pic ?>" alt="Admin Profile" class="vet-profile-image">
+                <img src="<?= $pic ?>" alt="Admin Profile" class="vet-profile-image">
                 <h3 class="admin-title">Admin</h3>
                 <p class="admin-subtitle"><?= $fname . ' ' . $sname ?></p>
 
                 <div class="admin-menu">
-                    <button class="admin-menu-item" onclick="location.href='admin-management.php'">
+                    <button class="admin-menu-item" onclick="location.href='/admin/management'">
                         <i class="fa-solid fa-users-gear"></i> Management
                     </button>
-                    <button class="admin-menu-item active" onclick="location.href='admin-audit.php'">
+                    <button class="admin-menu-item active" onclick="location.href='/admin/audit'">
                         <i class="fa-solid fa-clock-rotate-left"></i> Audit Logs
                     </button>
                 </div>

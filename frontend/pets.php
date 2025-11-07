@@ -1,82 +1,100 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/client-session.php");
-?>
-<!DOCTYPE html>
-<html lang="en">
+session_start(); // Ensure session is started
 
-<?php
-$pageTitle = "PawTrack - My Pets";
-include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
-if (isset($_GET['pet_id'])) {
+include(__DIR__ . "/partials/client-session.php"); // Client session
+include(__DIR__ . "/partials/head.php"); // Head section
+
+// ---- Extract PetID from URL ----
+$path = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
+$segments = explode('/', trim($path, '/'));
+
+if ($segments[0] === 'pets' && isset($segments[1])) {
+    $petID = $segments[1];
+} elseif (isset($_GET['pet_id'])) {
     $petID = $_GET['pet_id'];
-    $pet = $fetch->getPetDetails($petID);
-
-    if ($pet) {
-        $petRecords = $fetch->getPetRecords($petID);
-        $latestRecord = $fetch->getLatestPetRecord($petID);
-        $vet = $fetch->getPetVeterinary($latestRecord['VetID']);
-    } else {
-        echo "Pet not found.";
-    }
 } else {
-    echo "No PetID provided.";
+    header("Location: /dashboard"); // redirect if no PetID
+    exit;
 }
+
+// ---- Fetch Pet Details ----
+$pet = $fetch->getPetDetails($petID);
+if (!$pet) {
+    echo "<p>Pet not found.</p>";
+    exit;
+}
+
+// ---- Store PetID in session for API calls ----
+$_SESSION['CurrentPetID'] = $petID;
+
+// Fetch pet records, latest record, and vet info
+$petRecords = $fetch->getPetRecords($petID);
+$latestRecord = $fetch->getLatestPetRecord($petID);
+$vet = $latestRecord ? $fetch->getPetVeterinary($latestRecord['VetID']) : null;
+
+// Fetch owner info
+$owner = $fetch->getClientDetails($pet['ClientID']);
+$fname = $owner['FirstName'] ?? '';
+$lname = $owner['LastName'] ?? '';
+$email = $owner['Email'] ?? '';
+$startDate = $owner['CreatedAt'] ?? '';
 ?>
 
 <body>
-    <!-- Top Brown Bar -->
+    <!-- Top Bar -->
     <div class="top-bar"></div>
 
     <!-- Navigation Bar -->
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/pawtrack/frontend/partials/client-nav.php'; ?>
+    <?php include(__DIR__ . '/partials/client-nav.php'); ?>
 
     <!-- Main Content -->
     <div class="main-content">
-        <!-- Pet Details Section -->
         <div class="pet-details-container">
-            <h2 class="section-title">
-                <span class="back-arrow" onclick="window.location.href='dashboard.php'">◀</span> My Pets
+            <h2 class="section-title" onclick="windows.history.back()">
+                <span class="back-arrow" onclick="window.location.href='/dashboard'">◀</span> My Pets
             </h2>
 
             <!-- Microchip Number -->
             <div class="microchip-box">
                 <div class="microchip-label">Microchip Number</div>
-                <div class="microchip-number"><?= $pet['PetChipNum'] ?></div>
-                <button class="add-microchip-btn">⊕</button>
+                <div class="microchip-number"><?= htmlspecialchars($pet['PetChipNum']) ?></div>
+        
             </div>
 
-            <!-- Pet Info Cards -->
+            <!-- Pet Info Grid -->
             <div class="pet-info-grid">
                 <!-- Pet Image -->
                 <div class="pet-image-card">
-                    <img src="/pawtrack/storage/images/pets/<?= htmlspecialchars($pet['PetPic']) ?>" alt="Pet"
-                        class="pet-detail-image">
+                    <img src="/storage/images/pets/<?= htmlspecialchars($pet['PetPic'] ?: 'petsamples.png') ?>"
+                         alt="<?= htmlspecialchars($pet['PetName'] ?: 'Pet Image') ?>" 
+                         class="pet-detail-image">
                 </div>
 
-                <!-- Pet Name Card -->
+                <!-- Pet Info Card -->
                 <div class="info-card orange-card">
-                    <h3 class="card-title"><?= $pet['PetName'] ?></h3>
-                    <p class="card-info">Species (Dog, Cat, etc.)</p>
-                    <p class="card-info">Breed</p>
-                    <p class="card-info">Age / Date of Birth</p>
-                    <p class="card-info">Gender</p>
+                    <h3 class="card-title"><?= htmlspecialchars($pet['PetName']) ?></h3>
+                    <p class="card-info">Species: <?= htmlspecialchars($pet['Species']) ?></p>
+                    <p class="card-info">Breed: <?= htmlspecialchars($pet['Breed']) ?></p>
+                    <p class="card-info">Age: <?= htmlspecialchars($pet['Age']) ?></p>
+                    <p class="card-info">Gender: <?= htmlspecialchars($pet['Gender']) ?></p>
+                    <p class="card-info">Weight: <?= htmlspecialchars($pet['Weight']) ?> kg</p>
+                    <p class="card-info">Color/Markings: <?= htmlspecialchars($pet['ColorMarkings']) ?></p>
                 </div>
 
-                <!-- Owner Name Card -->
+                <!-- Owner Info Card -->
                 <div class="info-card orange-card">
-                    <h3 class="card-title"><?= $fname . ' ' . $lname ?></h3>
-                    <p class="card-info">Client ID:<?= $id ?></p>
-                    <p class="card-info"><?= $email ?></p>
-                    <p class="card-info"><?php echo date('F j, Y', strtotime($startDate)); ?></p>
-                    <p class="card-info">Information Here</p>
+                    <h3 class="card-title"><?= htmlspecialchars($fname . ' ' . $lname) ?></h3>
+                    <p class="card-info">Client ID: <?= htmlspecialchars($pet['ClientID']) ?></p>
+                    <p class="card-info"><?= htmlspecialchars($email) ?></p>
+                    <p class="card-info">Joined: <?= $startDate ? date('F j, Y', strtotime($startDate)) : '' ?></p>
                 </div>
 
                 <!-- Pet Records Menu -->
                 <div class="records-menu">
                     <h3 class="menu-title">Pet Records</h3>
-                    <button class="menu-item active" onclick="showTab('vaccination')">Vaccination History</button>
-                    <button class="menu-item" onclick="showTab('medical')">Past Medical Records</button>
-                    <button class="menu-item" onclick="showTab('notes')">Notes from Veterinarians</button>
+                    <button class="menu-item active" data-tab="vaccination" onclick="showTab('vaccination', this)">Vaccination History</button>
+                    <button class="menu-item" data-tab="medical" onclick="showTab('medical', this)">Past Medical Records</button>
+                    <button class="menu-item" data-tab="notes" onclick="showTab('notes', this)">Notes from Veterinarians</button>
                 </div>
             </div>
 
@@ -84,15 +102,10 @@ if (isset($_GET['pet_id'])) {
             <div class="tab-content">
                 <!-- Vaccination History Tab -->
                 <div id="vaccination-tab" class="tab-pane active">
-                    <h2 class="tab-title">
-                        Vaccination History
-                    </h2>
+                    <h2 class="tab-title">Vaccination History</h2>
                     <div class="table-container">
                         <table class="records-table">
                             <thead>
-                                <tr>
-                                    <th colspan="3" class="table-header">VACCINATION RECORD</th>
-                                </tr>
                                 <tr>
                                     <th>Shot Type</th>
                                     <th>Date</th>
@@ -103,17 +116,14 @@ if (isset($_GET['pet_id'])) {
                                 <?php if (!empty($petRecords)): ?>
                                     <?php foreach ($petRecords as $record): ?>
                                         <tr>
-                                            <td><?= $record['VaxRecord'] ?></td>
-                                            <td><?= $record['Date'] ?></td>
-                                            <td></td>
+                                            <td><?= htmlspecialchars($record['VaxRecord']) ?></td>
+                                            <td><?= htmlspecialchars($record['Date']) ?></td>
+                                            <td><?= htmlspecialchars($record['NextDue'] ?? '-') ?></td>
                                         </tr>
                                     <?php endforeach; ?>
                                 <?php else: ?>
-                                    <tr>
-                                        <td class="no-pets">No records found.</td>
-                                    </tr>
+                                    <tr><td colspan="3">No records found.</td></tr>
                                 <?php endif; ?>
-
                             </tbody>
                         </table>
                     </div>
@@ -121,32 +131,10 @@ if (isset($_GET['pet_id'])) {
 
                 <!-- Medical Records Tab -->
                 <div id="medical-tab" class="tab-pane">
-                    <h2 class="tab-title">
-                        Medical Records
-                    </h2>
+                    <h2 class="tab-title">Medical Records</h2>
                     <div class="table-container">
                         <table class="records-table">
                             <thead>
-                                <tr>
-                                    <th colspan="3" class="table-header">PUPPY INFORMATION</th>
-                                </tr>
-                                <tr>
-                                    <th>Pet's Name: <?= $pet['PetName'] ?></th>
-                                    <th>Breed:</th>
-                                    <th>Color:</th>
-                                </tr>
-                                <tr>
-                                    <th>Registered Number: <?= $pet['PetChipNum'] ?></th>
-                                    <th>Sex:</th>
-                                    <th>Birth Weight:</th>
-                                </tr>
-                            </thead>
-                        </table>
-                        <table class="records-table" style="margin-top: 20px;">
-                            <thead>
-                                <tr>
-                                    <th colspan="3" class="table-header">KNOWN HEALTH CONDITIONS</th>
-                                </tr>
                                 <tr>
                                     <th>Diagnosis</th>
                                     <th>Date Diagnosed</th>
@@ -157,56 +145,65 @@ if (isset($_GET['pet_id'])) {
                                 <?php if (!empty($petRecords)): ?>
                                     <?php foreach ($petRecords as $record): ?>
                                         <tr>
-                                            <td><?= $record['MedRecord'] ?></td>
-                                            <td><?= $record['Date'] ?></td>
-                                            <td><?= $record['VaxRecord'] ?></td>
+                                            <td><?= htmlspecialchars($record['MedRecord']) ?></td>
+                                            <td><?= htmlspecialchars($record['Date']) ?></td>
+                                            <td><?= htmlspecialchars($record['VaxRecord']) ?></td>
                                         </tr>
                                     <?php endforeach; ?>
                                 <?php else: ?>
-                                    <tr>
-                                        <td class="no-pets">No records found.</td>
-                                    </tr>
+                                    <tr><td colspan="3">No records found.</td></tr>
                                 <?php endif; ?>
                             </tbody>
                         </table>
                     </div>
                 </div>
 
-                <!-- Vet Notes Tab -->
+                <!-- Notes Tab -->
                 <div id="notes-tab" class="tab-pane">
-                    <h2 class="tab-title">
-                        Notes from Veterinarians
-                    </h2>
+                    <h2 class="tab-title">Notes from Veterinarians</h2>
                     <div class="notes-container">
-                        <div class="note-header">
-                            <p><strong>Date:</strong> <?= $latestRecord['Date'] ?></p>
-                            <p><strong>Veterinarian:</strong> Dr. <?= $vet['VetFName'] . ' ' . $vet['VetSName'] ?>, DVM
-                            </p>
-                        </div>
-                        <div class="note-content">
-                            <p><strong>Notes:</strong></p>
-                            <ul>
-                                <?php if (!empty($petRecords)): ?>
+                        <?php if ($latestRecord && $vet): ?>
+                            <div class="note-header">
+                                <p><strong>Date:</strong> <?= htmlspecialchars($latestRecord['Date']) ?></p>
+                                <p><strong>Veterinarian:</strong> Dr. <?= htmlspecialchars($vet['VetFName'] . ' ' . $vet['VetSName']) ?>, DVM</p>
+                            </div>
+                            <div class="note-content">
+                                <p><strong>Notes:</strong></p>
+                                <ul>
                                     <?php foreach ($petRecords as $record): ?>
-                                        <li><?= $record['MedRecord'] ?></li>
-                                        <li>Vaccinated <?= $record['VaxRecord'] ?></li>
+                                        <li><?= htmlspecialchars($record['MedRecord']) ?: 'No medical notes' ?></li>
+                                        <li>Vaccinated: <?= htmlspecialchars($record['VaxRecord']) ?: 'N/A' ?></li>
                                     <?php endforeach; ?>
-                                <?php else: ?>
-                                    <li>No records found.</li>
-                                <?php endif; ?>
-                            </ul>
-                            <p><strong>Follow-up Recommendation:</strong> Routine wellness check in 6 months.</p>
-                        </div>
+                                </ul>
+                                <p><strong>Follow-up Recommendation:</strong> Routine wellness check in 6 months.</p>
+                            </div>
+                        <?php else: ?>
+                            <p>No veterinarian notes found.</p>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- Tab switching JS -->
+    <script>
+    function showTab(tabName, btn) {
+        document.querySelectorAll('.tab-pane').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.menu-item').forEach(b => b.classList.remove('active'));
+
+        document.getElementById(tabName + '-tab').classList.add('active');
+        if (btn) btn.classList.add('active');
+    }
+    </script>
+
     <!-- Paw Print Background Pattern -->
     <div class="paw-pattern"></div>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src=" /pawtrack/assets/js/script.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/pet-records.js"></script>
+    <script>
+        // Expose PetID to client scripts for reliable fetching
+        window.PAWTRACK_PET_ID = <?= json_encode($petID) ?>;
+    </script>
 </body>
-
-</html>

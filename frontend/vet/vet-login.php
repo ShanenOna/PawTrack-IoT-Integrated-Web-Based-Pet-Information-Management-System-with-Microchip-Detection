@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
 
 <?php
 $pageTitle = "PawTrack - Login";
-include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
 ?>
 
 <body class="auth-page">
@@ -34,7 +31,13 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
                     <button type="submit" id="signInBtn" class="auth-btn">Sign In</button>
 
                     <div class="auth-link">
-                        <a href="/pawtrack/frontend/signup.php">No account? Sign up</a>
+                        <p>Sign up as:</p>
+                        <div>
+                            <a href="/admin/login">Admin</a>
+                        <a href="/">Client</a>
+                        </div>
+                        <hr>
+                        <a href="/signup">No account? Sign up</a>
                     </div>
                 </form>
             </div>
@@ -42,7 +45,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="/pawtrack/assets/js/login.js"></script>
+    <script src="/assets/js/login.js"></script>
 </body>
 
 </html>

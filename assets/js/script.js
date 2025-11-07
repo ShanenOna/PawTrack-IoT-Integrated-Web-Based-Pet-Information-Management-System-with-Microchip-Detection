@@ -22,36 +22,6 @@ function showTab(tabName) {
   event.target.classList.add("active");
 }
 
-// Contact form validation and submission
-const contactForm = document.getElementById("contactForm");
-if (contactForm) {
-  contactForm.addEventListener("submit", function (e) {
-    e.preventDefault();
-
-    const name = document.getElementById("name").value.trim();
-    const surname = document.getElementById("surname").value.trim();
-    const email = document.getElementById("email").value.trim();
-    const message = document.getElementById("message").value.trim();
-
-    // Validate all fields are filled
-    if (!name || !surname || !email || !message) {
-      alert("Please fill in all fields");
-      return;
-    }
-
-    // Validate email format
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
-      alert("Please enter a valid email address");
-      return;
-    }
-
-    // Success message
-    alert("Thank you for contacting us! We will get back to you soon.");
-    contactForm.reset();
-  });
-}
-
 // Vet search pet microchip functionality
 function searchPetMicrochip() {
   const searchInput = document.getElementById("vetSearchInput");
@@ -84,7 +54,7 @@ function vetLogout() {
     confirmButtonText: "Yes",
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.href = "/pawtrack/backend/vet-logout.php";
+      window.location.href = "/vet/login";
     }
   });
 }
@@ -99,7 +69,7 @@ function logout() {
     confirmButtonText: "Yes",
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.href = "/pawtrack/backend/logout.php";
+      window.location.href = "/";
     }
   });
 }
@@ -114,7 +84,7 @@ function adminLogout() {
     confirmButtonText: "Yes",
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.href = "/pawtrack/backend/admin-logout.php";
+      window.location.href = "/";
     }
   });
 }
@@ -170,15 +140,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Add expand button functionality
-  const expandBtn = document.querySelector(".expand-btn");
-  if (expandBtn) {
-    expandBtn.addEventListener("click", function () {
-      alert("Expand functionality - Add new pet");
-      // This would open a modal or form to add a new pet
-    });
-  }
-
   // Add microchip button functionality
   const addMicrochipBtn = document.querySelector(".add-microchip-btn");
   if (addMicrochipBtn) {
@@ -187,4 +148,88 @@ document.addEventListener("DOMContentLoaded", function () {
       // This would open a modal or form to edit microchip
     });
   }
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const emailInput = document.getElementById('ownerEmail');
+    const messageInput = document.getElementById('messageContent');
+    const submitBtn = document.querySelector('.vet-submit-btn');
+
+    submitBtn.addEventListener('click', () => {
+        const email = emailInput.value.trim();
+        const message = messageInput.value.trim();
+
+        // Validate email
+        if (!email) {
+            Swal.fire({
+                icon: 'warning',
+                title: 'Email Missing',
+                text: "Please enter the owner's email."
+            });
+            return;
+        }
+
+        // Email regex checker
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+            Swal.fire({
+                icon: 'error',
+                title: 'Invalid Email Format',
+                text: "Please enter a valid email address."
+            });
+            return;
+        }
+
+        // Validate message
+        if (!message) {
+            Swal.fire({
+                icon: 'warning',
+                title: 'Message Missing',
+                text: "Please enter a message to send."
+            });
+            return;
+        }
+
+        // Success modal
+        Swal.fire({
+            icon: 'success',
+            title: 'Message Ready!',
+            html: `
+                Email: <strong>${email}</strong><br>
+                Message: <em>${message}</em>
+            `
+        });
+
+         emailInput.value = '';
+         messageInput.value = '';
+    });
+});
+document.addEventListener("DOMContentLoaded", function () {
+    const contactForm = document.getElementById("contactForm");
+
+    contactForm.addEventListener("submit", function (e) {
+        e.preventDefault(); // Prevent page reload
+
+        const name = document.getElementById("name").value.trim();
+        const surname = document.getElementById("surname").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const message = document.getElementById("message").value.trim();
+
+        if (!name || !surname || !email || !message) {
+            Swal.fire({
+                icon: "warning",
+                title: "Incomplete Information",
+                text: "Please fill in all the fields."
+            });
+            return;
+        }
+
+        Swal.fire({
+            icon: "success",
+            title: "Message Sent!",
+            text: "Thank you for contacting us. We will get back to you soon!"
+        });
+
+        contactForm.reset();
+    });
 });

@@ -1,10 +1,15 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/backend/fetch-class.php");
-session_start();
+// Use a correct absolute path to include backend files safely and only once
+require_once __DIR__ . '/../../backend/fetch-class.php';
+// Only start session if not already active to avoid notices
+if (session_status() !== PHP_SESSION_ACTIVE) {
+    session_start();
+}
 if (!isset($_SESSION['ClientID'])) {
-    header("Location: /pawtrack/frontend/login.php");
+    header("Location: /");
     exit();
 }
+    
 $id = $_SESSION['ClientID'];
 $fname = $_SESSION['ClientFName'];
 $lname = $_SESSION['ClientLName'];
@@ -16,4 +21,5 @@ $pic = $_SESSION['ClientPic'];
 
 $fetch = new fetchClass();
 $pets = $fetch->getClientPets($id);
+
 ?>

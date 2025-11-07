@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
 
 <?php
 $pageTitle = "PawTrack - About Us";
-include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
 ?>
 
 <body>
@@ -11,12 +8,12 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
     <div class="top-bar"></div>
 
     <!-- Navigation Bar -->
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/pawtrack/frontend/partials/client-nav.php'; ?>
+    <?php include(__DIR__ . '/partials/client-nav.php'); ?>
 
     <!-- Hero Section with Header Image -->
     <section class="about-hero">
         <div class="about-hero-image">
-            <img src="/pawtrack/assets/images/about_header.png" alt="Happy family with pet">
+            <img src="/assets/images/about_header.png" alt="Happy family with pet">
             <div class="about-hero-text">
                 <h1>Your Trusted Pet Information Management System with Microchip Detection</h1>
             </div>
@@ -48,4 +45,3 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
     <script src=" /pawtrack/assets/js/script.js"></script>
 </body>
 
-</html>

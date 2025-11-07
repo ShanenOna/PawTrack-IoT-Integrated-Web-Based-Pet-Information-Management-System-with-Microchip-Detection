@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'fetch-class.php';
+require_once __DIR__ . '/fetch-class.php';
 date_default_timezone_set('Asia/Manila');
 
 header('Content-Type: application/json');
@@ -96,7 +96,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             exit();
         } else {
             http_response_code(400);
-            echo json_encode(["status" => "error", "message" => "Invalid password"]);
+            echo json_encode(["status" => "error", "message" => "Invalid password! Password: $password, HashedPassword: $hashedPassword"]);
         }
     } else {
         http_response_code(404);

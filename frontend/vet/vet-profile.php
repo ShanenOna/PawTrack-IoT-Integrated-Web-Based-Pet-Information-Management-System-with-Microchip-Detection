@@ -1,12 +1,12 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/vet-session.php");
+include(__DIR__ . "/../partials/vet-session.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <?php
 $pageTitle = "PawTrack - Vet Profile";
-include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
+include(__DIR__ . "/../partials/head.php");
 ?>
 
 <body>
@@ -18,10 +18,10 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
         <div class="nav-container">
             <div class="logo">PawTrack</div>
             <ul class="nav-links">
-                <li><a href="vet-profile.php" class="active">Dashboard</a></li>
+               <!-- <li><a href="vet-profile.php" class="active">Dashboard</a></li> -->
             </ul>
             <div class="vet-nav-icons">
-                <i class="fa-solid fa-bell"></i>
+               <!-- <i class="fa-solid fa-bell"></i> -->
                 <i class="fa-solid fa-user"></i>
             </div>
         </div>
@@ -32,21 +32,22 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
         <!-- Sidebar -->
         <aside class="vet-sidebar">
             <div class="vet-profile-card">
-                <img src="/pawtrack/storage/images/vet/<?= $pic ?>" alt="Vet Profile" class="vet-profile-image">
-                <h3 class="vet-name">Dr. <?= $fname . ' ' . $sname ?></h3>
-
-                <div class="vet-menu">
-                    <button class="vet-menu-item active" onclick="location.href='vet-profile.php'">
+                <img src="" alt="Vet Profile" class="vet-profile-image" id="vetProfileImage">
+                <h3 class="vet-name" id="vetName">Loading...</h3>
+                <div class="vet-btn-container">
+                    <div class="vet-menu">
+                    <button class="vet-menu-item active" onclick="location.href='/vet/profile'">
                         <i class="fa-solid fa-user"></i> Profile
                     </button>
-                    <button class="vet-menu-item" onclick="location.href='vet-reports.php'">
+                    <button class="vet-menu-item" onclick="location.href='/vet/pet-details'">
                         <i class="fa-solid fa-file-lines"></i> Reports
                     </button>
+                    </div>
+                    <button class="vet-logout-btn" onclick="vetLogout()">
+                        <i class="fa-solid fa-right-from-bracket"></i> Log Out
+                    </button>
                 </div>
-
-                <button class="vet-logout-btn" onclick="vetLogout()">
-                    <i class="fa-solid fa-right-from-bracket"></i> Log Out
-                </button>
+                
             </div>
         </aside>
 
@@ -55,20 +56,20 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
             <div class="vet-info-card">
                 <div class="vet-info-grid">
                     <div class="vet-info-col">
-                        <p><strong>Name:</strong> Dr. <?= $fname . ' ' . $sname ?></p>
+                        <p><strong>Name:</strong> <span id="vetNameFull">Loading...</span></p>
                         <p><strong>Role:</strong> Veterinarian</p>
-                        <p><strong>Employee ID:</strong> <?= $id ?></p>
-                        <p><strong>Clinic Branch:</strong> Bethlehem Animal Clinic – Quezon City</p>
+                        <p><strong>Employee ID:</strong> <span id="vetID">Loading...</span></p>
+                        <p><strong>Clinic Branch:</strong> <span id="vetClinic">Bethlehem Animal Clinic – Quezon City</span></p>
                     </div>
                     <div class="vet-info-col">
-                        <p><strong>Specialization:</strong> Small Animal Medicine & Surgery</p>
-                        <p><strong>License Number:</strong> PRC-VET-34567</p>
-                        <p><strong>Years of Experience:</strong> 8 years</p>
+                        <p><strong>Specialization:</strong> <span id="vetSpecialization">N/A</span></p>
+                        <p><strong>License Number:</strong> <span id="vetLicense">N/A</span></p>
+                        <p><strong>Years of Experience:</strong> <span id="vetExperience">N/A</span></p>
                     </div>
                 </div>
                 <div class="vet-contact-info">
-                    <p><strong>Contact Number:</strong> +63 917 456 7890</p>
-                    <p><strong>Email:</strong> <?= $email ?></p>
+                    <p><strong>Contact Number:</strong> <span id="vetContact">N/A</span></p>
+                    <p><strong>Email:</strong> <span id="vetEmail">Loading...</span></p>
                 </div>
             </div>
         </main>
@@ -76,8 +77,13 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
 
     <!-- Paw Print Background Pattern -->
     <div class="paw-pattern"></div>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src=" /pawtrack/assets/js/script.js"></script>
-</body>
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/assets/js/script.js"></script>
+
+    <!-- Scripts -->
+    <script src="/assets/js/fetch-vet-profile.js"></script>
+    <script src="/assets/js/user-popout.js"></script>
+
+</body>
 </html>

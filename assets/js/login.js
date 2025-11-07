@@ -6,29 +6,36 @@ document.addEventListener("DOMContentLoaded", () => {
       e.preventDefault();
 
       const formData = new FormData(form);
-
+      console.log("JS Activated");
       let loginType, redirectURL;
 
       switch (form.id) {
         case "vet-loginForm":
+          console.log("Role: Vet");
           loginType = "vet";
-          redirectURL = "/pawtrack/frontend/vet/vet-profile.php";
+          redirectURL = "/vet/profile";
           break;
 
         case "admin-loginForm":
+          console.log("Role: admin");
           loginType = "admin";
-          redirectURL = "/pawtrack/frontend/admin/admin-management.php";
+          redirectURL = "/admin/management";
           break;
 
-        default:
+        case "loginForm":
+          console.log("Role: Client");
           loginType = "client";
-          redirectURL = "/pawtrack/frontend/dashboard.php";
+          redirectURL = "/dashboard";
+        
+        default: 
+          console.log("No role detected:")
+          break;
       }
 
       formData.append("loginType", loginType);
 
       try {
-        const response = await fetch("/pawtrack/backend/login.php", {
+        const response = await fetch("/backend/login.php", {
           method: "POST",
           body: formData,
         });
@@ -44,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 : response.status === 404
                 ? "Email Not Found"
                 : "Something went wrong",
-            text: data.message,
+            text: "Password or email is incorrect. Please try again.",
           });
           return;
         }

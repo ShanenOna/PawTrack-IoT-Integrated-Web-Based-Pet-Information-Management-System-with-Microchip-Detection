@@ -1,0 +1,5519 @@
+
+---- 2025-10-22T18:39:22+08:00 ----
+isForm=1
+_POST=Array
+(
+    [id] => C001
+    [role] => client
+    [name] => Debug User
+    [email] => debug@example.com
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-22T18:39:39+08:00 ----
+isForm=1
+_POST=Array
+(
+    [id] => C001
+    [role] => client
+    [name] => Debug User
+    [email] => debug@example.com
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => test-upload.jpg
+            [full_path] => test-upload.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php5CC0.tmp
+            [error] => 0
+            [size] => 35
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761129579.jpg
+executeOk=1 error= affected=1
+
+---- 2025-10-22T18:41:33+08:00 ----
+isForm=1
+_POST=Array
+(
+    [id] => C001
+    [role] => client
+    [name] => Final Test
+    [email] => final@example.com
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => test-upload.jpg
+            [full_path] => test-upload.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php17A0.tmp
+            [error] => 0
+            [size] => 35
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761129693.jpg
+executeOk=1 error= affected=1
+
+---- 2025-10-22T18:42:17+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay joke
+    [email] => jay@email.com
+    [role] => client
+    [id] => C003
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => ai-5.png
+            [full_path] => ai-5.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\phpC3F3.tmp
+            [error] => 0
+            [size] => 1049061
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761129737.png
+executeOk=1 error= affected=1
+
+---- 2025-10-22T18:47:49+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => John Joe
+    [email] => admin2@gmail.com
+    [role] => admin
+    [id] => A005
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => ai-2.png
+            [full_path] => ai-2.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\phpD476.tmp
+            [error] => 0
+            [size] => 846889
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/A/A_1761130069.png
+executeOk=1 error= affected=1
+
+---- 2025-10-22T18:49:30+08:00 ----
+isForm=1
+_POST=Array
+(
+    [id] => A001
+    [role] => admin
+    [name] => Admin Updated
+    [email] => admin.updated@example.com
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => test-upload.jpg
+            [full_path] => test-upload.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php5FB4.tmp
+            [error] => 0
+            [size] => 35
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/A/A_1761130170.jpg
+executeOk=1 error= affected=1
+
+---- 2025-10-22T18:51:32+08:00 ----
+isForm=1
+_POST=Array
+(
+    [id] => A001
+    [role] => admin
+    [name] => Admin Final
+    [email] => admin.final@example.com
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => test-upload.jpg
+            [full_path] => test-upload.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php3D6E.tmp
+            [error] => 0
+            [size] => 35
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/admin/A_1761130292.jpg
+executeOk=1 error= affected=1
+
+---- 2025-10-22T18:54:05+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => John Joe
+    [email] => admin2@gmail.com
+    [role] => admin
+    [id] => A005
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => ai-1.png
+            [full_path] => ai-1.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php94C1.tmp
+            [error] => 0
+            [size] => 667874
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/admin/A_1761130445.png
+executeOk=1 error= affected=1
+
+---- 2025-10-22T18:54:05+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => John Joe
+    [email] => admin2@gmail.com
+    [role] => admin
+    [id] => A005
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => ai-1.png
+            [full_path] => ai-1.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php94F1.tmp
+            [error] => 0
+            [size] => 667874
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/admin/A_1761130445.png
+executeOk=1 error= affected=0
+
+---- 2025-10-22T18:54:24+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => John Jins
+    [email] => admin2@gmail.com
+    [role] => admin
+    [id] => A005
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-22T19:05:01+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => John Jenkis
+    [email] => admin2@gmail.com
+    [role] => admin
+    [id] => A005
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => ai-4.png
+            [full_path] => ai-4.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php95EB.tmp
+            [error] => 0
+            [size] => 1270931
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/admin/A_1761131101.png
+executeOk=1 error= affected=1
+
+---- 2025-10-22T19:05:01+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => John Jenkis
+    [email] => admin2@gmail.com
+    [role] => admin
+    [id] => A005
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => ai-4.png
+            [full_path] => ai-4.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php961B.tmp
+            [error] => 0
+            [size] => 1270931
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/admin/A_1761131101.png
+executeOk=1 error= affected=0
+
+---- 2025-10-22T19:07:29+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => John Jenkis
+    [email] => admin2@gmail.com
+    [role] => admin
+    [id] => A005
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => img-3.jpg
+            [full_path] => img-3.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpD88A.tmp
+            [error] => 0
+            [size] => 7993
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/admin/A_1761131249.jpg
+executeOk=1 error= affected=1
+
+---- 2025-10-22T19:07:29+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => John Jenkis
+    [email] => admin2@gmail.com
+    [role] => admin
+    [id] => A005
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => img-3.jpg
+            [full_path] => img-3.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpD8AB.tmp
+            [error] => 0
+            [size] => 7993
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/admin/A_1761131249.jpg
+executeOk=1 error= affected=0
+
+---- 2025-10-22T19:29:04+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Senku Isekai
+    [email] => vet1@pawtrack.com
+    [role] => client
+    [id] => 
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => ai-3.png
+            [full_path] => ai-3.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php9BB1.tmp
+            [error] => 0
+            [size] => 806576
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761132544.png
+executeOk=1 error= affected=0
+
+---- 2025-10-22T19:29:04+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Senku Isekai
+    [email] => vet1@pawtrack.com
+    [role] => client
+    [id] => 
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => ai-3.png
+            [full_path] => ai-3.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php9BD1.tmp
+            [error] => 0
+            [size] => 806576
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761132544.png
+executeOk=1 error= affected=0
+
+---- 2025-10-22T19:46:13+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => isekai
+    [email] => vet1@pawtrack.com
+    [role] => vet
+    [id] => V004
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => img1.jpg
+            [full_path] => img1.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php4CAB.tmp
+            [error] => 0
+            [size] => 14638
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/V/V_1761133573.jpg
+
+---- 2025-10-22T19:48:11+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => asdfsda
+    [email] => vet1@pawtrack.com
+    [role] => vet
+    [id] => V004
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => ai-4.png
+            [full_path] => ai-4.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php1A96.tmp
+            [error] => 0
+            [size] => 1270931
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/V/V_1761133691.png
+executeOk=1 error= affected=1
+
+---- 2025-10-22T19:48:11+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => asdfsda
+    [email] => vet1@pawtrack.com
+    [role] => vet
+    [id] => V004
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => ai-4.png
+            [full_path] => ai-4.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php1AC6.tmp
+            [error] => 0
+            [size] => 1270931
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/V/V_1761133691.png
+executeOk=1 error= affected=0
+
+---- 2025-10-22T20:01:46+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Test Vet
+    [email] => testvet@example.test
+    [role] => vet
+    [id] => V004
+    [vetContact] => 09171234567
+    [vetSpecialization] => Surgery
+    [vetLicenseNo] => LIC-2025-001
+    [vetExperience] => 6
+    [clinicBranch] => Bethlehem Clinic
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Test
+    [1] => Vet
+    [2] => testvet@example.test
+    [3] => Surgery
+    [4] => LIC-2025-001
+    [5] => 6
+    [6] => 09171234567
+    [7] => Bethlehem Clinic
+)
+
+---- 2025-10-22T20:03:12+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Test Vet 2
+    [email] => testvet2@example.test
+    [role] => vet
+    [id] => V004
+    [vetContact] => 09179876543
+    [vetSpecialization] => Dermatology
+    [vetLicenseNo] => LIC-2025-002
+    [vetExperience] => 8
+    [clinicBranch] => Bethlehem Clinic Q.C.
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Test
+    [1] => Vet 2
+    [2] => testvet2@example.test
+    [3] => Dermatology
+    [4] => LIC-2025-002
+    [5] => 8
+    [6] => 09179876543
+    [7] => Bethlehem Clinic Q.C.
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-22T20:04:03+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => adasda
+    [email] => testvet2@example.test
+    [role] => vet
+    [id] => V004
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => adasda
+    [1] => 
+    [2] => testvet2@example.test
+    [3] => N/A
+    [4] => N/A
+    [5] => 
+    [6] => N/A
+    [7] => 
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-22T20:11:28+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => AJKSDHKJASDHA
+    [email] => testvet2@example.test
+    [role] => vet
+    [id] => V004
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => N/A
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => AJKSDHKJASDHA
+    [1] => 
+    [2] => testvet2@example.test
+    [3] => N/A
+    [4] => N/A
+    [5] => 
+    [6] => N/A
+    [7] => N/A
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-22T20:36:54+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Curly Test
+    [email] => curly@example.test
+    [role] => vet
+    [id] => V004
+    [vetContact] => 09998887766
+    [vetSpecialization] => Cardiology
+    [vetLicenseNo] => LIC-999
+    [vetExperience] => 12
+    [clinicBranch] => Unit Test Clinic
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Curly
+    [1] => Test
+    [2] => curly@example.test
+    [3] => Cardiology
+    [4] => LIC-999
+    [5] => 12
+    [6] => 09998887766
+    [7] => Unit Test Clinic
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-22T20:38:58+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Curly Test asdfsdaf
+    [email] => curly@example.test
+    [role] => vet
+    [id] => V004
+    [vetContact] => 09998887766
+    [vetSpecialization] => Cardiology
+    [vetLicenseNo] => LIC-999
+    [vetExperience] => 12
+    [clinicBranch] => Unit Test Clinic
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Curly Test asdfsdaf
+    [2] => curly@example.test
+    [3] => Cardiology
+    [4] => LIC-999
+    [5] => 12
+    [6] => 09998887766
+    [7] => Unit Test Clinic
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-22T20:42:28+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Curly Test asdfsdaf
+    [email] => curly@example.test
+    [role] => vet
+    [id] => V004
+    [vetContact] => 09998887766
+    [vetSpecialization] => Cardiology
+    [vetLicenseNo] => LIC-999
+    [vetExperience] => 12
+    [clinicBranch] => Unit Test Clinic
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Curly Test asdfsdaf
+    [2] => curly@example.test
+    [3] => Cardiology
+    [4] => LIC-999
+    [5] => 12
+    [6] => 09998887766
+    [7] => Unit Test Clinic
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-22T20:49:08+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Curly Test asdfsdaf
+    [email] => curly@example.test
+    [role] => vet
+    [id] => V004
+    [vetContact] => 09998887766
+    [vetSpecialization] => Cardiology
+    [vetLicenseNo] => LIC-999
+    [vetExperience] => 12
+    [clinicBranch] => Unit Test Clinic
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. Curly Test asdfsdaf
+    [2] => curly@example.test
+    [3] => Cardiology
+    [4] => LIC-999
+    [5] => 12
+    [6] => 09998887766
+    [7] => Unit Test Clinic
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-22T20:49:32+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Curly Test asdfsdaf
+    [email] => curly@example.test
+    [role] => vet
+    [id] => V004
+    [vetContact] => 03940141
+    [vetSpecialization] => Sdjkfasd
+    [vetLicenseNo] => 2314
+    [vetExperience] => 231
+    [clinicBranch] => Statetd
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. Curly Test asdfsdaf
+    [2] => curly@example.test
+    [3] => Sdjkfasd
+    [4] => 2314
+    [5] => 231
+    [6] => 03940141
+    [7] => Statetd
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-23T08:58:59+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay jokes
+    [email] => jay@email.com
+    [role] => client
+    [id] => C003
+    [vetContact] => 
+    [vetSpecialization] => 
+    [vetLicenseNo] => 
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => img1.jpg
+            [full_path] => img1.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php1FE1.tmp
+            [error] => 0
+            [size] => 14638
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761181139.jpg
+executeOk=1 error= affected=1
+
+---- 2025-10-23T09:02:12+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay jokers
+    [email] => jay@email.com
+    [role] => client
+    [id] => C003
+    [vetContact] => 
+    [vetSpecialization] => 
+    [vetLicenseNo] => 
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-23T09:02:28+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay jjj
+    [email] => jay@email.com
+    [role] => client
+    [id] => C003
+    [vetContact] => 
+    [vetSpecialization] => 
+    [vetLicenseNo] => 
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => img-1.png
+            [full_path] => img-1.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php50F6.tmp
+            [error] => 0
+            [size] => 161270
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761181348.png
+executeOk=1 error= affected=1
+
+---- 2025-10-23T09:04:35+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay jjj
+    [email] => jay@email.com
+    [role] => client
+    [id] => C003
+    [vetContact] => 
+    [vetSpecialization] => 
+    [vetLicenseNo] => 
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => rain1 (1).jpg
+            [full_path] => rain1 (1).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php40F0.tmp
+            [error] => 0
+            [size] => 32084
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761181475.jpg
+executeOk=1 error= affected=1
+
+---- 2025-10-23T09:04:55+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay johans
+    [email] => jay@email.com
+    [role] => client
+    [id] => C003
+    [vetContact] => 
+    [vetSpecialization] => 
+    [vetLicenseNo] => 
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-23T09:04:55+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay johans
+    [email] => jay@email.com
+    [role] => client
+    [id] => C003
+    [vetContact] => 
+    [vetSpecialization] => 
+    [vetLicenseNo] => 
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=0
+
+---- 2025-10-23T09:08:45+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay jokes
+    [email] => jay@email.com
+    [role] => client
+    [id] => C003
+    [vetContact] => 
+    [vetSpecialization] => 
+    [vetLicenseNo] => 
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => ai-5.png
+            [full_path] => ai-5.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php12F8.tmp
+            [error] => 0
+            [size] => 1049061
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761181725.png
+executeOk=1 error= affected=1
+
+---- 2025-10-23T09:12:08+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Jay Cena
+    [email] => test1@gmail.com
+    [role] => vet
+    [id] => V003
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => N/A
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => ai-2.png
+            [full_path] => ai-2.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php2C11.tmp
+            [error] => 0
+            [size] => 846889
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/V/V_1761181928.png
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetPic = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Jay
+    [1] => Cena
+    [2] => test1@gmail.com
+    [3] => /storage/images/V/V_1761181928.png
+    [4] => N/A
+    [5] => N/A
+    [6] => 
+    [7] => N/A
+    [8] => N/A
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-23T16:09:56+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay fdsafds
+    [email] => jay@email.com
+    [role] => client
+    [id] => C003
+    [vetContact] => 
+    [vetSpecialization] => 
+    [vetLicenseNo] => 
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => dirt.jpg
+            [full_path] => dirt.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpA6D8.tmp
+            [error] => 0
+            [size] => 8951
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761206996.jpg
+executeOk=1 error= affected=1
+
+---- 2025-10-23T16:11:08+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+insert_execute_ok=1 error=
+
+---- 2025-10-23T16:11:15+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+insert_execute_ok=1 error=
+
+---- 2025-10-23T16:12:44+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Michael
+    [email] => test1@gmail.com
+    [role] => vet
+    [id] => V003
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => N/A
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => ai-4.png
+            [full_path] => ai-4.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php398B.tmp
+            [error] => 0
+            [size] => 1270931
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/V/V_1761207164.png
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetPic = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Michael
+    [1] => 
+    [2] => test1@gmail.com
+    [3] => /storage/images/V/V_1761207164.png
+    [4] => N/A
+    [5] => N/A
+    [6] => 
+    [7] => N/A
+    [8] => N/A
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-23T16:13:27+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Michael
+    [email] => test1@gmail.com
+    [role] => vet
+    [id] => V003
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => N/A
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Michael
+    [2] => test1@gmail.com
+    [3] => N/A
+    [4] => N/A
+    [5] => 
+    [6] => N/A
+    [7] => N/A
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-23T20:55:13+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+insert_execute_ok=1 error=
+
+---- 2025-10-23T20:55:40+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+insert_execute_ok=1 error=
+
+---- 2025-10-23T20:58:35+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+insert_execute_ok=1 error=
+
+---- 2025-10-23T20:58:39+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+insert_execute_ok=1 error=
+
+---- 2025-10-23T20:59:46+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+insert_execute_ok=1 error=
+
+---- 2025-10-23T21:13:57+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. jay c
+    [email] => test1@gmail.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => N/A
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => rain1 (1).jpg
+            [full_path] => rain1 (1).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpFBE5.tmp
+            [error] => 0
+            [size] => 32084
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/V/V_1761225237.jpg
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetPic = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => jay c
+    [2] => test1@gmail.com
+    [3] => /storage/images/V/V_1761225237.jpg
+    [4] => N/A
+    [5] => N/A
+    [6] => 
+    [7] => N/A
+    [8] => N/A
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-23T21:14:31+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => John
+    [email] => test1@gmail.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => N/A
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => John
+    [1] => 
+    [2] => test1@gmail.com
+    [3] => N/A
+    [4] => N/A
+    [5] => 
+    [6] => N/A
+    [7] => N/A
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-23T21:23:15+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => dsafas
+    [email] => sdafsda@email.com
+    [role] => client
+    [id] => 
+    [vetContact] => 
+    [vetSpecialization] => 
+    [vetLicenseNo] => 
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=0
+
+---- 2025-10-23T21:25:32+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => sdafsa
+    [email] => test1@gmail.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => N/A
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => sdafsa
+    [1] => 
+    [2] => test1@gmail.com
+    [3] => N/A
+    [4] => N/A
+    [5] => 
+    [6] => N/A
+    [7] => N/A
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-23T21:28:18+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. sdafsa
+    [email] => test1@gmail.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => N/A
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => sdafsa
+    [2] => test1@gmail.com
+    [3] => N/A
+    [4] => N/A
+    [5] => 
+    [6] => N/A
+    [7] => N/A
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-23T21:29:27+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. sdafsa
+    [email] => test1@gmail.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => N/A
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => door.jpg
+            [full_path] => door.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php2EE8.tmp
+            [error] => 0
+            [size] => 5223
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/V/V_1761226167.jpg
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetPic = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. sdafsa
+    [2] => test1@gmail.com
+    [3] => /storage/images/V/V_1761226167.jpg
+    [4] => N/A
+    [5] => N/A
+    [6] => 
+    [7] => N/A
+    [8] => N/A
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-23T21:30:00+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. sdafsa
+    [email] => test1@gmail.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => N/A
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. sdafsa
+    [2] => test1@gmail.com
+    [3] => N/A
+    [4] => N/A
+    [5] => 
+    [6] => N/A
+    [7] => N/A
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-23T21:31:22+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => SADJFHSDJKH
+    [email] => test1@gmail.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => N/A
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => SADJFHSDJKH
+    [1] => 
+    [2] => test1@gmail.com
+    [3] => N/A
+    [4] => N/A
+    [5] => 
+    [6] => N/A
+    [7] => N/A
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-23T21:32:23+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => asdfsd
+    [email] => test1@gmail.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => N/A
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => asdfsd
+    [1] => 
+    [2] => test1@gmail.com
+    [3] => N/A
+    [4] => N/A
+    [5] => 
+    [6] => N/A
+    [7] => N/A
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-23T21:37:37+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => asdfsdaf
+    [email] => test1@gmail.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => N/A
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => dirt.jpg
+            [full_path] => dirt.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpA84E.tmp
+            [error] => 0
+            [size] => 8951
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/V/V_1761226657.jpg
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetPic = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => asdfsdaf
+    [1] => 
+    [2] => test1@gmail.com
+    [3] => /storage/images/V/V_1761226657.jpg
+    [4] => N/A
+    [5] => N/A
+    [6] => 
+    [7] => N/A
+    [8] => N/A
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-23T21:43:15+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => try2
+    [email] => test1@gmail.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => N/A
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => try2
+    [1] => 
+    [2] => test1@gmail.com
+    [3] => N/A
+    [4] => N/A
+    [5] => 
+    [6] => N/A
+    [7] => N/A
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-23T21:46:06+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. try21
+    [email] => test11@gmail.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => N/A
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => door.jpg
+            [full_path] => door.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php6E1D.tmp
+            [error] => 0
+            [size] => 5223
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/V/V_1761227166.jpg
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetPic = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => try21
+    [2] => test11@gmail.com
+    [3] => /storage/images/V/V_1761227166.jpg
+    [4] => N/A
+    [5] => N/A
+    [6] => 
+    [7] => N/A
+    [8] => N/A
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-23T21:49:55+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. try21
+    [email] => test11@gmail.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => N/A
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. try21
+    [2] => test11@gmail.com
+    [3] => N/A
+    [4] => N/A
+    [5] => 
+    [6] => N/A
+    [7] => N/A
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-23T21:50:22+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. try21
+    [email] => test131@gmail.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => N/A
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. try21
+    [2] => test131@gmail.com
+    [3] => N/A
+    [4] => N/A
+    [5] => 
+    [6] => N/A
+    [7] => N/A
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-23T21:52:08+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Dr. try21
+    [email] => test131@gmail.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => N/A
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. Dr. try21
+    [2] => test131@gmail.com
+    [3] => N/A
+    [4] => N/A
+    [5] => 
+    [6] => N/A
+    [7] => N/A
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. try21
+    [email] => test131@gmail.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => N/A
+)
+
+---- 2025-10-23T22:07:29+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. try21
+    [email] => test131@gmail.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => N/A
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. Dr. Dr. try21
+    [2] => test131@gmail.com
+    [3] => N/A
+    [4] => N/A
+    [5] => 
+    [6] => N/A
+    [7] => N/A
+)
+executeOk=1 error= affected=1
+
+---- 2025-10-23T22:20:52+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Try Test
+    [email] => trytest@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => 09123456789
+    [vetSpecialization] => Dermatology
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Try Test
+    [2] => trytest@example.com
+    [3] => Dermatology
+    [4] => LIC1234
+    [5] => 5
+    [6] => 09123456789
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. Dr. Dr. Try Test
+    [email] => trytest@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => 09123456789
+    [vetSpecialization] => Dermatology
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T22:21:58+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Try Test
+    [email] => trytest@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => 09123456789
+    [vetSpecialization] => Dermatology
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. Try Test
+    [2] => trytest@example.com
+    [3] => Dermatology
+    [4] => LIC1234
+    [5] => 5
+    [6] => 09123456789
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. Dr. Dr. Dr. Try Test
+    [email] => trytest@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => 09123456789
+    [vetSpecialization] => Dermatology
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T22:22:16+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Dr. Try Test
+    [email] => trytest@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => 09123456789
+    [vetSpecialization] => Dermatology
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. Dr. Try Test
+    [2] => trytest@example.com
+    [3] => Dermatology
+    [4] => LIC1234
+    [5] => 5
+    [6] => 09123456789
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. Try Test
+    [email] => trytest@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => 09123456789
+    [vetSpecialization] => Dermatology
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T22:22:31+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. Try Test
+    [email] => trytest@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => 09123456789
+    [vetSpecialization] => Dermatology
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. Dr. Dr. Try Test
+    [2] => trytest@example.com
+    [3] => Dermatology
+    [4] => LIC1234
+    [5] => 5
+    [6] => 09123456789
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. Dr. Try Test
+    [email] => trytest@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => 09123456789
+    [vetSpecialization] => Dermatology
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T22:23:25+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. Dr. Try Test
+    [email] => trytest@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => 09123456789
+    [vetSpecialization] => Dermatology
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. Dr. Dr. Dr. Try Test
+    [2] => trytest@example.com
+    [3] => Dermatology
+    [4] => LIC1234
+    [5] => 5
+    [6] => 09123456789
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. Dr. Dr. Try Test
+    [email] => trytest@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => 09123456789
+    [vetSpecialization] => Dermatology
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T22:23:37+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. Dr. Dr. Try Test
+    [email] => trytest@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => 09123456789
+    [vetSpecialization] => Dermatology
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. Dr. Dr. Dr. Dr. Try Test
+    [2] => trytest@example.com
+    [3] => Dermatology
+    [4] => LIC1234
+    [5] => 5
+    [6] => 09123456789
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. Dr. Dr. Dr. Try Test
+    [email] => trytest@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => 09123456789
+    [vetSpecialization] => Dermatology
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T22:23:46+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. Dr. Dr. Dr. Try Test
+    [email] => trytest@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => 09123456789
+    [vetSpecialization] => Dermatology
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. Dr. Dr. Dr. Dr. Dr. Try Test
+    [2] => trytest@example.com
+    [3] => Dermatology
+    [4] => LIC1234
+    [5] => 5
+    [6] => 09123456789
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. Dr. Dr. Dr. Dr. Try Test
+    [email] => trytest@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => 09123456789
+    [vetSpecialization] => Dermatology
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T22:24:05+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. Dr. Dr. Dr. Dr. Try Test
+    [email] => trytest@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => 09123456789
+    [vetSpecialization] => Dermatology
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. Dr. Dr. Dr. Dr. Dr. Dr. Try Test
+    [2] => trytest@example.com
+    [3] => Dermatology
+    [4] => LIC1234
+    [5] => 5
+    [6] => 09123456789
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. Dr. Dr. Dr. Dr. Dr. Try Test
+    [email] => trytest@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => 09123456789
+    [vetSpecialization] => Dermatology
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T22:24:33+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. Dr. Dr. Dr. Dr. Dr. Try Test
+    [email] => trytest@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => 09123456789
+    [vetSpecialization] => Dermatology
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. Dr. Dr. Dr. Dr. Dr. Dr. Dr. Try Test
+    [2] => trytest@example.com
+    [3] => Dermatology
+    [4] => LIC1234
+    [5] => 5
+    [6] => 09123456789
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => FSDFSDSDF
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => 09123456789
+    [vetSpecialization] => Dermatology
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T22:26:57+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => FSDFSDSDF
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => 09123456789
+    [vetSpecialization] => Dermatology
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => FSDFSDSDF
+    [1] => 
+    [2] => trytest1@example.com
+    [3] => Dermatology
+    [4] => LIC1234
+    [5] => 5
+    [6] => 09123456789
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. FSDFSDSDF
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => 
+    [vetSpecialization] => 
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T22:30:04+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. FSDFSDSDF
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => 
+    [vetSpecialization] => 
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => FSDFSDSDF
+    [2] => trytest1@example.com
+    [3] => 
+    [4] => LIC1234
+    [5] => 5
+    [6] => 
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. Dr. FSDFSDSDF
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T22:33:39+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. FSDFSDSDF
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. FSDFSDSDF
+    [2] => trytest1@example.com
+    [3] => N/A
+    [4] => LIC1234
+    [5] => 5
+    [6] => N/A
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. Dr. Dr. FSDFSDSDF
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T22:33:59+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. FSDFSDSDF
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. FSDFSDSDF
+    [2] => trytest1@example.com
+    [3] => N/A
+    [4] => LIC1234
+    [5] => 5
+    [6] => N/A
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. Dr. Dr. Dr. FSDFSDSDF
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T22:47:41+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Dr. FSDFSDSDF
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. Dr. FSDFSDSDF
+    [2] => trytest1@example.com
+    [3] => N/A
+    [4] => LIC1234
+    [5] => 5
+    [6] => N/A
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. FSDFSDSDF
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T22:47:52+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. FSDFSDSDF
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. Dr. Dr. FSDFSDSDF
+    [2] => trytest1@example.com
+    [3] => N/A
+    [4] => LIC1234
+    [5] => 5
+    [6] => N/A
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => asdfsda
+    [email] => trytest1@example.com
+    [clinicBranch] => Mayo
+    [vetSpecialization] => Cardio
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 21
+    [vetContact] => 123123421
+)
+
+---- 2025-10-23T22:54:08+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => asdfsda
+    [email] => trytest1@example.com
+    [clinicBranch] => Mayo
+    [vetSpecialization] => Cardio
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 21
+    [vetContact] => 123123421
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+POST DATA:
+Array
+(
+    [name] => sdfas
+    [email] => abc@gmail.com
+    [clinicBranch] => fd
+    [vetSpecialization] => sdfs
+    [vetLicenseNo] => dsfsd
+    [vetExperience] => 21
+    [vetContact] => 1231
+)
+
+---- 2025-10-23T22:54:49+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => sdfas
+    [email] => abc@gmail.com
+    [clinicBranch] => fd
+    [vetSpecialization] => sdfs
+    [vetLicenseNo] => dsfsd
+    [vetExperience] => 21
+    [vetContact] => 1231
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+POST DATA:
+Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. Dr. FSDFSDSDF
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T22:57:20+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. Dr. FSDFSDSDF
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. Dr. Dr. Dr. FSDFSDSDF
+    [2] => trytest1@example.com
+    [3] => N/A
+    [4] => LIC1234
+    [5] => 5
+    [6] => N/A
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => SYBAU
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T23:12:56+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => SYBAU
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => SYBAU
+    [1] => 
+    [2] => trytest1@example.com
+    [3] => N/A
+    [4] => LIC1234
+    [5] => 5
+    [6] => N/A
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. SYBAU
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T23:20:09+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. SYBAU
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => SYBAU
+    [2] => trytest1@example.com
+    [3] => N/A
+    [4] => LIC1234
+    [5] => 5
+    [6] => N/A
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. Dr. SYBAU
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T23:29:18+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. SYBAU
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. SYBAU
+    [2] => trytest1@example.com
+    [3] => N/A
+    [4] => LIC1234
+    [5] => 5
+    [6] => N/A
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. Dr. Dr. SYBAU
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T23:29:28+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. SYBAU
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. SYBAU
+    [2] => trytest1@example.com
+    [3] => N/A
+    [4] => LIC1234
+    [5] => 5
+    [6] => N/A
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => ASDFASD
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T23:29:49+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => ASDFASD
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => dirt.jpg
+            [full_path] => dirt.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php60A3.tmp
+            [error] => 0
+            [size] => 8951
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/V/V_1761233389.jpg
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetPic = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => ASDFASD
+    [1] => 
+    [2] => trytest1@example.com
+    [3] => /storage/images/V/V_1761233389.jpg
+    [4] => N/A
+    [5] => LIC1234
+    [6] => 5
+    [7] => N/A
+    [8] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => asdfasd
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T23:32:48+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => asdfasd
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => asdfasd
+    [1] => 
+    [2] => trytest1@example.com
+    [3] => N/A
+    [4] => LIC1234
+    [5] => 5
+    [6] => N/A
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => asdfsda
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T23:33:08+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => asdfsda
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => asdfsda
+    [1] => 
+    [2] => trytest1@example.com
+    [3] => N/A
+    [4] => LIC1234
+    [5] => 5
+    [6] => N/A
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. asdfsda
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T23:33:34+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. asdfsda
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => asdfsda
+    [2] => trytest1@example.com
+    [3] => N/A
+    [4] => LIC1234
+    [5] => 5
+    [6] => N/A
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. Dr. asdfsda
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T23:33:56+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. asdfsda
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. asdfsda
+    [2] => trytest1@example.com
+    [3] => N/A
+    [4] => LIC1234
+    [5] => 5
+    [6] => N/A
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. Dr. Dr. asdfsda
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T23:34:24+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. asdfsda
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. asdfsda
+    [2] => trytest1@example.com
+    [3] => N/A
+    [4] => LIC1234
+    [5] => 5
+    [6] => N/A
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. Dr. Dr. Dr. asdfsda
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T23:34:45+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Dr. asdfsda
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. Dr. asdfsda
+    [2] => trytest1@example.com
+    [3] => N/A
+    [4] => LIC1234
+    [5] => 5
+    [6] => N/A
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. asdfsda
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T23:35:01+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. asdfsda
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. Dr. Dr. asdfsda
+    [2] => trytest1@example.com
+    [3] => N/A
+    [4] => LIC1234
+    [5] => 5
+    [6] => N/A
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. Dr. asdfsda
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T23:35:17+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. Dr. asdfsda
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. Dr. Dr. Dr. asdfsda
+    [2] => trytest1@example.com
+    [3] => N/A
+    [4] => LIC1234
+    [5] => 5
+    [6] => N/A
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. Dr. Dr. asdfsda
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T23:35:37+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. Dr. Dr. asdfsda
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Dr.
+    [1] => Dr. Dr. Dr. Dr. Dr. Dr. asdfsda
+    [2] => trytest1@example.com
+    [3] => N/A
+    [4] => LIC1234
+    [5] => 5
+    [6] => N/A
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => HEllo
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+---- 2025-10-23T23:36:20+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => HEllo
+    [email] => trytest1@example.com
+    [role] => vet
+    [id] => V007
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => LIC1234
+    [vetExperience] => 5
+    [clinicBranch] => Main Branch
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetEmail = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => HEllo
+    [1] => 
+    [2] => trytest1@example.com
+    [3] => N/A
+    [4] => LIC1234
+    [5] => 5
+    [6] => N/A
+    [7] => Main Branch
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+)
+POST DATA:
+Array
+(
+)
+
+---- 2025-10-23T23:57:59+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+insert_execute_ok=1 error=
+POST DATA:
+Array
+(
+)
+
+---- 2025-10-23T23:58:05+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+insert_execute_ok=1 error=
+POST DATA:
+Array
+(
+)
+POST DATA:
+Array
+(
+)
+POST DATA:
+Array
+(
+)
+
+---- 2025-10-24T00:30:15+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ?, VetSpecialization = ?, VetLicenseNo = ?, VetExperience = ?, VetContact = ?, ClinicBranch = ? WHERE VetID = ?
+values=Array
+(
+    [0] => HEllo
+    [1] => 
+    [2] => Mayo
+    [3] => Mayo
+    [4] => 2
+    [5] => 091231
+    [6] => Mayo
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+)
+
+---- 2025-10-24T00:31:01+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Mayo
+    [1] => 
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+)
+
+---- 2025-10-24T00:31:08+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Dr. Mayo Clinic
+    [email] => trytest1@example.com
+    [role] => client
+    [id] => 
+)
+
+---- 2025-10-24T00:32:09+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Mayo Clinic
+    [email] => trytest1@example.com
+    [role] => client
+    [id] => 
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=0
+POST DATA:
+Array
+(
+    [name] => Dr.  asdas
+    [email] => trytest1@example.com
+    [role] => client
+    [id] => 
+    [clinicBranch] => Mayo
+    [vetSpecialization] => Mayo
+    [vetLicenseNo] => Mayo
+    [vetExperience] => 2
+    [vetContact] => 091231
+)
+
+---- 2025-10-24T00:37:03+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr.  asdas
+    [email] => trytest1@example.com
+    [role] => client
+    [id] => 
+    [clinicBranch] => Mayo
+    [vetSpecialization] => Mayo
+    [vetLicenseNo] => Mayo
+    [vetExperience] => 2
+    [vetContact] => 091231
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=0
+POST DATA:
+Array
+(
+    [name] => jay asdf
+    [email] => jay@email.com
+    [role] => client
+    [id] => C003
+)
+
+---- 2025-10-24T00:40:28+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay asdf
+    [email] => jay@email.com
+    [role] => client
+    [id] => C003
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => Shanti
+    [email] => trytest1@example.com
+    [role] => client
+    [id] => 
+)
+
+---- 2025-10-24T00:45:26+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Shanti
+    [email] => trytest1@example.com
+    [role] => client
+    [id] => 
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=0
+POST DATA:
+Array
+(
+)
+
+---- 2025-10-24T00:46:17+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+vet_update_sql=UPDATE vet SET VetFName = ?, VetSName = ? WHERE VetID = ?
+values=Array
+(
+    [0] => Monet
+    [1] => 
+)
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+)
+
+---- 2025-10-24T00:49:13+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=0
+POST DATA:
+Array
+(
+)
+
+---- 2025-10-24T00:49:21+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=0
+POST DATA:
+Array
+(
+)
+
+---- 2025-10-24T00:51:06+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+insert_execute_ok=1 error=
+POST DATA:
+Array
+(
+)
+
+---- 2025-10-24T00:52:17+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+insert_execute_ok=1 error=
+POST DATA:
+Array
+(
+)
+
+---- 2025-10-24T00:52:28+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+insert_execute_ok=1 error=
+POST DATA:
+Array
+(
+)
+
+---- 2025-10-24T00:52:37+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+POST DATA:
+Array
+(
+)
+
+---- 2025-10-24T00:54:17+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+insert_execute_ok=1 error=
+POST DATA:
+Array
+(
+)
+
+---- 2025-10-24T00:54:33+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+POST DATA:
+Array
+(
+)
+
+---- 2025-10-24T00:54:38+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+insert_execute_ok=1 error=
+POST DATA:
+Array
+(
+)
+
+---- 2025-10-24T00:55:54+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+insert_execute_ok=1 error=
+POST DATA:
+Array
+(
+    [name] => Picollo Montes
+    [email] => vet@pawtrack.com
+    [role] => client
+    [id] => 
+)
+
+---- 2025-10-24T00:56:26+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Picollo Montes
+    [email] => vet@pawtrack.com
+    [role] => client
+    [id] => 
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => img1.jpg
+            [full_path] => img1.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpAC72.tmp
+            [error] => 0
+            [size] => 14638
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761238586.jpg
+executeOk=1 error= affected=0
+POST DATA:
+Array
+(
+    [name] => jay sean
+    [email] => jay@email.com
+    [role] => client
+    [id] => C003
+)
+
+---- 2025-10-24T00:57:01+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay sean
+    [email] => jay@email.com
+    [role] => client
+    [id] => C003
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => rain1.jpg
+            [full_path] => rain1.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php37DA.tmp
+            [error] => 0
+            [size] => 10781
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761238621.jpg
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => jay cuh
+    [email] => test1@gmail.com
+    [role] => admin
+    [id] => A004
+)
+
+---- 2025-10-24T00:57:33+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay cuh
+    [email] => test1@gmail.com
+    [role] => admin
+    [id] => A004
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => dirt.jpg
+            [full_path] => dirt.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpB558.tmp
+            [error] => 0
+            [size] => 8951
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/admin/A_1761238653.jpg
+executeOk=1 error= affected=1
+POST DATA:
+Array
+(
+    [name] => jay cuh
+    [email] => test1@gmail.com
+    [role] => admin
+    [newRole] => admin
+    [id] => A004
+)
+
+---- 2025-10-24T01:02:25+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay cuh
+    [email] => test1@gmail.com
+    [role] => admin
+    [newRole] => admin
+    [id] => A004
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=0
+
+---- 2025-10-24T01:05:57+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay ca
+    [email] => test1@gmail.com
+    [role] => admin
+    [id] => A004
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-24T01:06:13+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay sean s
+    [email] => jay@email.com
+    [role] => client
+    [id] => C003
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-24T01:06:20+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay sean
+    [email] => jay@email.com
+    [role] => client
+    [id] => C003
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => dirt.jpg
+            [full_path] => dirt.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpBD80.tmp
+            [error] => 0
+            [size] => 8951
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761239180.jpg
+executeOk=1 error= affected=1
+
+---- 2025-10-24T01:06:30+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay shots
+    [email] => jay@email.com
+    [role] => client
+    [id] => C003
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-24T01:07:21+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Vet OG
+    [email] => vet@pawtrack.com
+    [role] => client
+    [id] => 
+    [clinicBranch] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetContact] => N/A
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => dirt.jpg
+            [full_path] => dirt.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpABE9.tmp
+            [error] => 0
+            [size] => 8951
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761239241.jpg
+executeOk=1 error= affected=0
+
+---- 2025-10-24T01:07:32+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. vet vet
+    [email] => vet@pawtrack.com
+    [role] => client
+    [id] => 
+    [clinicBranch] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetContact] => N/A
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => dirt.jpg
+            [full_path] => dirt.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpD720.tmp
+            [error] => 0
+            [size] => 8951
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761239252.jpg
+executeOk=1 error= affected=0
+
+---- 2025-10-24T01:07:51+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Vet OG
+    [email] => vet@pawtrack.com
+    [role] => client
+    [id] => 
+    [clinicBranch] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetContact] => N/A
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => dirt.jpg
+            [full_path] => dirt.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php22FF.tmp
+            [error] => 0
+            [size] => 8951
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761239271.jpg
+executeOk=1 error= affected=0
+
+---- 2025-10-24T01:16:36+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Quack Quack
+    [email] => vet@pawtrack.com
+    [role] => client
+    [id] => null
+    [clinicBranch] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetContact] => N/A
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => dirt.jpg
+            [full_path] => dirt.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php23E4.tmp
+            [error] => 0
+            [size] => 8951
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761239796.jpg
+executeOk=1 error= affected=0
+
+---- 2025-10-24T01:17:53+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => aljur
+    [email] => test1@gmail.com
+    [role] => admin
+    [id] => A004
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => asd.png
+            [full_path] => asd.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php5159.tmp
+            [error] => 0
+            [size] => 1740
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/admin/A_1761239873.png
+executeOk=1 error= affected=1
+
+---- 2025-10-24T01:18:51+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => asdfsda
+    [email] => vet@pawtrack.com
+    [role] => client
+    [id] => null
+    [clinicBranch] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetContact] => N/A
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=0
+
+---- 2025-10-24T01:26:56+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. vet vet
+    [email] => vet@pawtrack.com
+    [role] => client
+    [id] => 
+    [clinicBranch] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [vetContact] => N/A
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => dirt.jpg
+            [full_path] => dirt.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php9B6D.tmp
+            [error] => 0
+            [size] => 8951
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761240416.jpg
+executeOk=1 error= affected=0
+
+---- 2025-10-24T01:28:15+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => wooo
+    [email] => test1@gmail.com
+    [role] => admin
+    [id] => A004
+    [clinicBranch] => 
+    [vetSpecialization] => 
+    [vetLicenseNo] => 
+    [vetExperience] => 
+    [vetContact] => 
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => dirt.jpg
+            [full_path] => dirt.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpCD09.tmp
+            [error] => 0
+            [size] => 8951
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/admin/A_1761240495.jpg
+executeOk=1 error= affected=1
+
+---- 2025-10-24T01:29:10+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => aljur
+    [email] => test1@gmail.com
+    [role] => admin
+    [id] => A004
+    [vetContact] => 
+    [vetSpecialization] => 
+    [vetLicenseNo] => 
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => dirt.jpg
+            [full_path] => dirt.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpA691.tmp
+            [error] => 0
+            [size] => 8951
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/admin/A_1761240550.jpg
+executeOk=1 error= affected=1
+
+---- 2025-10-24T01:31:25+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => aljurs
+    [email] => test1@gmail.com
+    [role] => admin
+    [id] => A004
+    [vetContact] => 
+    [vetSpecialization] => 
+    [vetLicenseNo] => 
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-24T01:34:47+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Yasou
+    [email] => vet@pawtrack.com
+    [role] => client
+    [id] => null
+    [vetContact] => N/A
+    [vetSpecialization] => N/A
+    [vetLicenseNo] => N/A
+    [vetExperience] => 
+    [clinicBranch] => N/A
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => dirt.jpg
+            [full_path] => dirt.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpCBA6.tmp
+            [error] => 0
+            [size] => 8951
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761240887.jpg
+executeOk=1 error= affected=0
+
+---- 2025-10-24T01:35:32+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay make
+    [email] => jay@email.com
+    [role] => client
+    [id] => C003
+    [vetContact] => 
+    [vetSpecialization] => 
+    [vetLicenseNo] => 
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => rain1.jpg
+            [full_path] => rain1.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php7A36.tmp
+            [error] => 0
+            [size] => 10781
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761240932.jpg
+executeOk=1 error= affected=1
+
+---- 2025-10-24T01:36:38+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => aljurs manika
+    [email] => test1@gmail.com
+    [role] => admin
+    [id] => A004
+    [vetContact] => 
+    [vetSpecialization] => 
+    [vetLicenseNo] => 
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => memory.png
+            [full_path] => memory.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php7B4C.tmp
+            [error] => 0
+            [size] => 23133
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/admin/A_1761240998.png
+executeOk=1 error= affected=1
+
+---- 2025-10-24T01:39:51+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => daksu
+    [email] => test1@gmail.com
+    [role] => admin
+    [id] => A004
+    [vetContact] => 
+    [vetSpecialization] => 
+    [vetLicenseNo] => 
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-24T01:45:09+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => aljursdsf
+    [email] => test1@gmail.com
+    [role] => admin
+    [id] => A004
+    [vetContact] => 
+    [vetSpecialization] => 
+    [vetLicenseNo] => 
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=0
+
+---- 2025-10-24T01:48:18+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => aljursdsf
+    [email] => test1@gmail.com
+    [role] => admin
+    [id] => A004
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => dirt.jpg
+            [full_path] => dirt.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php298E.tmp
+            [error] => 0
+            [size] => 8951
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761241698.jpg
+moved=0 target=C:\xampp\htdocs\pawtrack\backend/../storage/images//_1761241698.jpg
+executeOk=1 error= affected=0
+
+---- 2025-10-24T01:48:47+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay as
+    [email] => jay@email.com
+    [role] => client
+    [id] => C003
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => asd.png
+            [full_path] => asd.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php9A69.tmp
+            [error] => 0
+            [size] => 1740
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761241727.png
+moved=0 target=C:\xampp\htdocs\pawtrack\backend/../storage/images//_1761241727.png
+executeOk=1 error= affected=1
+
+---- 2025-10-24T01:52:57+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay asuit
+    [email] => jay@email.com
+    [role] => client
+    [id] => C003
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => dirt.jpg
+            [full_path] => dirt.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php6C14.tmp
+            [error] => 0
+            [size] => 8951
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761241977.jpg
+executeOk=1 error= affected=1
+
+---- 2025-10-24T01:53:19+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => daksutes
+    [email] => test1@gmail.com
+    [role] => admin
+    [id] => A004
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => dirt.jpg
+            [full_path] => dirt.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpC0FB.tmp
+            [error] => 0
+            [size] => 8951
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/admin/A_1761241999.jpg
+executeOk=1 error= affected=1
+
+---- 2025-10-24T01:53:37+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => daksutes
+    [email] => test1@gmail.com
+    [role] => admin
+    [id] => A004
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=0
+
+---- 2025-10-24T01:54:38+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Shez
+    [email] => vet@pawtrack.com
+    [role] => client
+    [id] => null
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => dirt.jpg
+            [full_path] => dirt.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpF546.tmp
+            [error] => 0
+            [size] => 8951
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761242078.jpg
+executeOk=1 error= affected=0
+
+---- 2025-10-24T01:56:37+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. vet vet
+    [email] => vet@pawtrack.com
+    [role] => client
+    [id] => null
+)
+
+_FILES=Array
+(
+)
+
+prepared_sql=UPDATE client SET ClientFName=?, ClientLName=?, ClientEmail=? WHERE ClientID=?
+values=Array
+(
+    [0] => Dr.
+    [1] => vet vet
+    [2] => vet@pawtrack.com
+    [3] => null
+)
+
+executeOk=1 error= affected=0
+warning: getUserByID returned null for role=client id=null
+
+---- 2025-10-24T01:56:54+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. vet vet
+    [email] => vet@pawtrack.com
+    [role] => client
+    [id] => null
+)
+
+_FILES=Array
+(
+)
+
+prepared_sql=UPDATE client SET ClientFName=?, ClientLName=?, ClientEmail=? WHERE ClientID=?
+values=Array
+(
+    [0] => Dr.
+    [1] => vet vet
+    [2] => vet@pawtrack.com
+    [3] => null
+)
+
+executeOk=1 error= affected=0
+warning: getUserByID returned null for role=client id=null
+
+---- 2025-10-24T01:57:33+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => sdfsdaf
+    [email] => test1@gmail.com
+    [role] => admin
+    [id] => A004
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => door.jpg
+            [full_path] => door.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpA2F2.tmp
+            [error] => 0
+            [size] => 5223
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/admin/A_1761242253.jpg
+prepared_sql=UPDATE admin SET AdminFName=?, AdminSName=?, AdminEmail=?, AdminPic=? WHERE AdminID=?
+values=Array
+(
+    [0] => sdfsdaf
+    [1] => 
+    [2] => test1@gmail.com
+    [3] => /storage/images/admin/A_1761242253.jpg
+    [4] => A004
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-24T01:58:11+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => dakutes
+    [email] => test1@gmail.com
+    [role] => admin
+    [id] => A004
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => dirt.jpg
+            [full_path] => dirt.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php34D3.tmp
+            [error] => 0
+            [size] => 8951
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/admin/A_1761242291.jpg
+prepared_sql=UPDATE admin SET AdminFName=?, AdminSName=?, AdminEmail=?, AdminPic=? WHERE AdminID=?
+values=Array
+(
+    [0] => dakutes
+    [1] => 
+    [2] => test1@gmail.com
+    [3] => /storage/images/admin/A_1761242291.jpg
+    [4] => A004
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-24T01:58:52+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Vet
+    [email] => vet@pawtrack.com
+    [role] => client
+    [id] => null
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => dirt.jpg
+            [full_path] => dirt.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpD55A.tmp
+            [error] => 0
+            [size] => 8951
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761242332.jpg
+prepared_sql=UPDATE client SET ClientFName=?, ClientLName=?, ClientEmail=?, ClientPic=? WHERE ClientID=?
+values=Array
+(
+    [0] => Vet
+    [1] => 
+    [2] => vet@pawtrack.com
+    [3] => /storage/images/C/C_1761242332.jpg
+    [4] => null
+)
+
+executeOk=1 error= affected=0
+warning: getUserByID returned null for role=client id=null
+
+---- 2025-10-24T02:01:57+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. vet vet
+    [email] => vet@pawtrack.com
+)
+
+_FILES=Array
+(
+)
+
+
+---- 2025-10-24T02:02:28+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => asdfsad
+    [email] => test1@gmail.com
+)
+
+_FILES=Array
+(
+)
+
+
+---- 2025-10-24T02:04:04+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => asdfsad
+    [email] => test1@gmail.com
+    [role] => admin
+    [id] => A004
+)
+
+_FILES=Array
+(
+)
+
+prepared_sql=UPDATE admin SET AdminFName=?, AdminSName=?, AdminEmail=? WHERE AdminID=?
+values=Array
+(
+    [0] => asdfsad
+    [1] => 
+    [2] => test1@gmail.com
+    [3] => A004
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-24T02:04:14+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => asdfsda
+    [email] => test1@gmail.com
+    [role] => admin
+    [id] => A004
+)
+
+_FILES=Array
+(
+)
+
+prepared_sql=UPDATE admin SET AdminFName=?, AdminSName=?, AdminEmail=? WHERE AdminID=?
+values=Array
+(
+    [0] => asdfsda
+    [1] => 
+    [2] => test1@gmail.com
+    [3] => A004
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-24T02:04:43+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => dakutes
+    [email] => test1@gmail.com
+    [role] => admin
+    [id] => A004
+)
+
+_FILES=Array
+(
+)
+
+prepared_sql=UPDATE admin SET AdminFName=?, AdminSName=?, AdminEmail=? WHERE AdminID=?
+values=Array
+(
+    [0] => dakutes
+    [1] => 
+    [2] => test1@gmail.com
+    [3] => A004
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-24T04:22:47+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+prepared_sql=INSERT INTO admin (AdminID, AdminFName, AdminSName, AdminEmail, AdminPassword, AdminPic, AdminStartDate) VALUES (?, ?, ?, ?, ?, ?, ?)
+values=Array
+(
+    [0] => A005
+    [1] => jay
+    [2] => a
+    [3] => jay@email.com
+    [4] => ***
+    [5] => /storage/images/C/C_1761243023.png
+    [6] => 2025-10-19
+)
+
+insert_execute_ok=1 error=
+prepared_sql=DELETE FROM client WHERE ClientID=?
+values=Array
+(
+    [0] => C003
+)
+
+
+---- 2025-10-24T04:23:07+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+prepared_sql=INSERT INTO vet (VetID, VetFName, VetSName, VetEmail, VetPassword, VetPic, VetStartDate) VALUES (?, ?, ?, ?, ?, ?, ?)
+values=Array
+(
+    [0] => V009
+    [1] => jay
+    [2] => a
+    [3] => jay@email.com
+    [4] => ***
+    [5] => /storage/images/C/C_1761243023.png
+    [6] => 2025-10-19
+)
+
+insert_execute_ok=1 error=
+prepared_sql=DELETE FROM client WHERE ClientID=?
+values=Array
+(
+    [0] => C003
+)
+
+
+---- 2025-10-24T04:24:02+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+prepared_sql=INSERT INTO admin (AdminID, AdminFName, AdminSName, AdminEmail, AdminPassword, AdminPic, AdminStartDate) VALUES (?, ?, ?, ?, ?, ?, ?)
+values=Array
+(
+    [0] => A006
+    [1] => Final
+    [2] => Test
+    [3] => final@example.com
+    [4] => ***
+    [5] => /storage/images/C/C_1761129693.jpg
+    [6] => 2024-05-11
+)
+
+insert_execute_ok=1 error=
+prepared_sql=DELETE FROM vet WHERE VetID=?
+values=Array
+(
+    [0] => V007
+)
+
+
+---- 2025-10-24T04:24:09+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+prepared_sql=INSERT INTO vet (VetID, VetFName, VetSName, VetEmail, VetPassword, VetPic, VetStartDate) VALUES (?, ?, ?, ?, ?, ?, ?)
+values=Array
+(
+    [0] => V010
+    [1] => Final
+    [2] => Test
+    [3] => final@example.com
+    [4] => ***
+    [5] => /storage/images/C/C_1761129693.jpg
+    [6] => 2024-05-11
+)
+
+insert_execute_ok=1 error=
+prepared_sql=DELETE FROM admin WHERE AdminID=?
+values=Array
+(
+    [0] => A006
+)
+
+
+---- 2025-10-24T04:24:15+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+prepared_sql=INSERT INTO client (ClientID, ClientFName, ClientLName, ClientEmail, ClientPassword, ClientPic, ClientStartDate) VALUES (?, ?, ?, ?, ?, ?, ?)
+values=Array
+(
+    [0] => C004
+    [1] => Final
+    [2] => Test
+    [3] => final@example.com
+    [4] => ***
+    [5] => /storage/images/C/C_1761129693.jpg
+    [6] => 2024-05-11
+)
+
+
+---- 2025-10-24T04:24:32+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+prepared_sql=INSERT INTO admin (AdminID, AdminFName, AdminSName, AdminEmail, AdminPassword, AdminPic, AdminStartDate) VALUES (?, ?, ?, ?, ?, ?, ?)
+values=Array
+(
+    [0] => A006
+    [1] => jay
+    [2] => a
+    [3] => jay@email.com
+    [4] => ***
+    [5] => /storage/images/C/C_1761243023.png
+    [6] => 2025-10-19
+)
+
+insert_execute_ok=1 error=
+prepared_sql=DELETE FROM client WHERE ClientID=?
+values=Array
+(
+    [0] => C003
+)
+
+
+---- 2025-10-24T04:24:52+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+prepared_sql=INSERT INTO admin (AdminID, AdminFName, AdminSName, AdminEmail, AdminPassword, AdminPic, AdminStartDate) VALUES (?, ?, ?, ?, ?, ?, ?)
+values=Array
+(
+    [0] => A007
+    [1] => Julia
+    [2] => Abigail
+    [3] => julia.abigail@email.com
+    [4] => ***
+    [5] => client2.png
+    [6] => 2024-06-20
+)
+
+insert_execute_ok=1 error=
+prepared_sql=DELETE FROM client WHERE ClientID=?
+values=Array
+(
+    [0] => C002
+)
+
+
+---- 2025-10-24T04:25:00+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+prepared_sql=INSERT INTO vet (VetID, VetFName, VetSName, VetEmail, VetPassword, VetPic, VetStartDate) VALUES (?, ?, ?, ?, ?, ?, ?)
+values=Array
+(
+    [0] => V011
+    [1] => Julia
+    [2] => Abigail
+    [3] => julia.abigail@email.com
+    [4] => ***
+    [5] => client2.png
+    [6] => 2024-06-20
+)
+
+insert_execute_ok=1 error=
+prepared_sql=DELETE FROM client WHERE ClientID=?
+values=Array
+(
+    [0] => C002
+)
+
+
+---- 2025-10-24T04:27:02+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+prepared_sql=INSERT INTO vet (VetID, VetFName, VetSName, VetEmail, VetPassword, VetPic, VetStartDate) VALUES (?, ?, ?, ?, ?, ?, ?)
+values=Array
+(
+    [0] => V012
+    [1] => jay
+    [2] => a
+    [3] => jay@email.com
+    [4] => ***
+    [5] => /storage/images/C/C_1761243023.png
+    [6] => 2025-10-19
+)
+
+insert_execute_ok=1 error=
+prepared_sql=DELETE FROM client WHERE ClientID=?
+values=Array
+(
+    [0] => C003
+)
+
+
+---- 2025-10-24T04:27:39+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+prepared_sql=INSERT INTO admin (AdminID, AdminFName, AdminSName, AdminEmail, AdminPassword, AdminPic, AdminStartDate) VALUES (?, ?, ?, ?, ?, ?, ?)
+values=Array
+(
+    [0] => A008
+    [1] => Final
+    [2] => Test
+    [3] => final@example.com
+    [4] => ***
+    [5] => /storage/images/C/C_1761129693.jpg
+    [6] => 2024-05-11
+)
+
+insert_execute_ok=1 error=
+prepared_sql=DELETE FROM vet WHERE VetID=?
+values=Array
+(
+    [0] => V010
+)
+
+
+---- 2025-10-25T11:18:17+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay hello
+    [email] => jay@email.com
+    [role] => client
+    [id] => C003
+    [vetContact] => 
+    [vetSpecialization] => 
+    [vetLicenseNo] => 
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => plank.jpg
+            [full_path] => plank.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php5C79.tmp
+            [error] => 0
+            [size] => 3715
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761362297.jpg
+executeOk=1 error= affected=1
+
+---- 2025-10-25T11:21:50+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay a
+    [email] => jay@email.com
+    [role] => client
+    [id] => C003
+    [vetContact] => 
+    [vetSpecialization] => 
+    [vetLicenseNo] => 
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-25T11:22:27+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => jay hello
+    [email] => jay@email.com
+    [role] => client
+    [id] => C003
+    [vetContact] => 
+    [vetSpecialization] => 
+    [vetLicenseNo] => 
+    [vetExperience] => 
+    [clinicBranch] => 
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => cobblestone.jpg
+            [full_path] => cobblestone.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php2A99.tmp
+            [error] => 0
+            [size] => 4882
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/C/C_1761362547.jpg
+executeOk=1 error= affected=1
+
+---- 2025-10-25T11:23:56+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Hello
+    [email] => vet@pawtrack.com
+    [role] => vet
+    [id] => V008
+    [vetContact] => 1231231
+    [vetSpecialization] => ff
+    [vetLicenseNo] => fff
+    [vetExperience] => 21
+    [clinicBranch] => ff
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => ai-5.png
+            [full_path] => ai-5.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php8950.tmp
+            [error] => 0
+            [size] => 1049061
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/V/V_1761362636.png
+executeOk=1 error= affected=1
+
+---- 2025-10-25T21:38:06+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Vet User
+    [email] => vet@pawtrack.com
+    [role] => vet
+    [id] => V008
+    [vetContact] => 1231231
+    [vetSpecialization] => ff
+    [vetLicenseNo] => fff
+    [vetExperience] => 21
+    [clinicBranch] => ff
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => dirt.jpg
+            [full_path] => dirt.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpD0D8.tmp
+            [error] => 0
+            [size] => 8951
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/V/V_1761399486.jpg
+executeOk=1 error= affected=1
+
+---- 2025-10-25T21:39:32+08:00 ----
+isForm=0
+_POST=Array
+(
+)
+
+_FILES=Array
+(
+)
+
+insert_execute_ok=1 error=
+
+---- 2025-10-26T13:27:28+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Vet MyMan
+    [email] => vet@pawtrack.com
+    [role] => vet
+    [id] => V008
+    [vetContact] => 1231231
+    [vetSpecialization] => ff
+    [vetLicenseNo] => fff
+    [vetExperience] => 21
+    [clinicBranch] => ff
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-26T13:28:47+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Vet MyMan
+    [email] => vet@pawtrack.com
+    [role] => vet
+    [id] => V008
+    [vetContact] => 1231231
+    [vetSpecialization] => ff
+    [vetLicenseNo] => fff
+    [vetExperience] => 21
+    [clinicBranch] => ff
+)
+
+_FILES=Array
+(
+)
+
+
+---- 2025-10-26T13:28:59+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Vet MyMan
+    [email] => vet@pawtrack.com
+    [role] => vet
+    [id] => V008
+    [vetContact] => 1231231
+    [vetSpecialization] => ff
+    [vetLicenseNo] => fff
+    [vetExperience] => 21
+    [clinicBranch] => ff
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-26T13:29:19+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Vet MyMan
+    [email] => vet@pawtrack.com
+    [role] => vet
+    [id] => V008
+    [vetContact] => 1231231
+    [vetSpecialization] => ff
+    [vetLicenseNo] => fff
+    [vetExperience] => 21
+    [clinicBranch] => ff
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-26T13:30:51+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Vet MyMan
+    [email] => vet@pawtrack.com
+    [role] => vet
+    [id] => V008
+    [vetContact] => 1231231
+    [vetSpecialization] => ff
+    [vetLicenseNo] => fff
+    [vetExperience] => 21
+    [clinicBranch] => ff
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-26T13:33:45+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Dr. Vet MyMan
+    [email] => vet@pawtrack.com
+    [role] => vet
+    [id] => V008
+    [vetContact] => 1231231
+    [vetSpecialization] => ff
+    [vetLicenseNo] => fff
+    [vetExperience] => 21
+    [clinicBranch] => ff
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-26T13:34:05+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Vet MyMan
+    [email] => vet@pawtrack.com
+    [role] => vet
+    [id] => V008
+    [vetContact] => 1231231
+    [vetSpecialization] => ff
+    [vetLicenseNo] => fff
+    [vetExperience] => 21
+    [clinicBranch] => ff
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-26T13:35:13+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Vet MyMan
+    [email] => vet@pawtrack.com
+    [role] => vet
+    [id] => V008
+    [vetContact] => 1231231
+    [vetSpecialization] => ff
+    [vetLicenseNo] => fff
+    [vetExperience] => 21
+    [clinicBranch] => ff
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-26T13:36:42+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Vet MyMan
+    [email] => vet@pawtrack.com
+    [role] => vet
+    [id] => V008
+    [vetContact] => 1231231
+    [vetSpecialization] => ff
+    [vetLicenseNo] => fff
+    [vetExperience] => 21
+    [clinicBranch] => ff
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-26T13:38:49+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Vet MyMan
+    [email] => vet@pawtrack.com
+    [role] => vet
+    [id] => V008
+    [vetContact] => 1231231
+    [vetSpecialization] => ff
+    [vetLicenseNo] => fff
+    [vetExperience] => 21
+    [clinicBranch] => ff
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-26T13:41:03+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Dr. Vet MyMan
+    [email] => vet@pawtrack.com
+    [role] => vet
+    [id] => V008
+    [vetContact] => 1231231
+    [vetSpecialization] => ff
+    [vetLicenseNo] => fff
+    [vetExperience] => 21
+    [clinicBranch] => ff
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-26T13:41:32+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. Vet MyMan
+    [email] => vet@pawtrack.com
+    [role] => vet
+    [id] => V008
+    [vetContact] => 1231231
+    [vetSpecialization] => ff
+    [vetLicenseNo] => fff
+    [vetExperience] => 21
+    [clinicBranch] => ff
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-26T13:44:23+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Dr. Dr. Dr. Dr. Dr. Dr. Vet MyMan
+    [email] => vet@pawtrack.com
+    [role] => vet
+    [id] => V008
+    [vetContact] => 1231231
+    [vetSpecialization] => 123
+    [vetLicenseNo] => 123
+    [vetExperience] => 21
+    [clinicBranch] => 123
+)
+
+_FILES=Array
+(
+)
+
+executeOk=1 error= affected=1
+
+---- 2025-10-26T13:45:13+08:00 ----
+isForm=1
+_POST=Array
+(
+    [name] => Vet User
+    [email] => vet@pawtrack.com
+    [role] => vet
+    [id] => V008
+    [vetContact] => 0912423145
+    [vetSpecialization] => Cardio
+    [vetLicenseNo] => L2103
+    [vetExperience] => 2
+    [clinicBranch] => Mayo
+)
+
+_FILES=Array
+(
+    [pic] => Array
+        (
+            [name] => arrow.png
+            [full_path] => arrow.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php3C72.tmp
+            [error] => 0
+            [size] => 1014
+        )
+
+)
+
+moved=1 target=C:\xampp\htdocs\pawtrack\backend/../storage/images/V/V_1761457513.png
+executeOk=1 error= affected=1

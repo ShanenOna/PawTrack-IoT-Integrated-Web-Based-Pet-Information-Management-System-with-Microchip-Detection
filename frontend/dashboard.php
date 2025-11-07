@@ -1,25 +1,22 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/client-session.php");
+include(__DIR__ . "/partials/client-session.php");
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
 
 <?php
 $pageTitle = "PawTrack - Dashboard";
 
-include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
+include(__DIR__ . "/partials/head.php");
 ?>
 
 <body>
     <!-- Top Brown Bar -->
     <div class="top-bar"></div>
 
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/pawtrack/frontend/partials/client-nav.php'; ?>
+    <?php include(__DIR__ . '/partials/client-nav.php'); ?>
 
     <!-- Main Content -->
     <div class="main-content">
-        <?php include $_SERVER['DOCUMENT_ROOT'] . '/pawtrack/frontend/partials/client-profile-card.php'; ?>
+        <?php include(__DIR__ . '/partials/client-profile-card.php'); ?>
 
         <!-- My Pets Section -->
         <div class="pets-section">
@@ -33,8 +30,8 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
             <div class="pets-container">
                 <?php if (!empty($pets)): ?>
                     <?php foreach ($pets as $pet): ?>
-                        <a href="pets.php?pet_id=<?= urlencode($pet['PetID']) ?>" class="pet-card clickable">
-                            <img src="/pawtrack/storage/images/pets/<?= htmlspecialchars($pet['PetPic']) ?>"
+                        <a href="/pets/<?= urlencode($pet['PetID']) ?>" class="pet-card clickable">
+                            <img src="/storage/images/pets/<?= htmlspecialchars($pet['PetPic']) ?>"
                                 alt="<?= htmlspecialchars($pet['PetName']) ?>" class="pet-image">
                         </a>
                     <?php endforeach; ?>
@@ -42,6 +39,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
                     <p class="no-pets">No pets found. Add one to get started!</p>
                 <?php endif; ?>
             </div>
+
 
             <!-- Microchip Scanner -->
             <div class="scanner-section">
@@ -58,7 +56,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
     <!-- Paw Print Background Pattern -->
     <div class="paw-pattern"></div>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src=" /pawtrack/assets/js/script.js"></script>
+    <script src=" /assets/js/script.js"></script>
+    <script src="/assets/js/dashboard.js"></script>
 </body>
 
-</html>

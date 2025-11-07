@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['AdminID'])) {
-    header("Location: /pawtrack/frontend/admin/admin-login.php");
+    header("Location: /");
     exit();
 }
 $id = $_SESSION['AdminID'];

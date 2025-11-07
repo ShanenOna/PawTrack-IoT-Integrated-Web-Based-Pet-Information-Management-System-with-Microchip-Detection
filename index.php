@@ -1,50 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <?php
-$pageTitle = "PawTrack - Login";
-include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
+$path = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
+include(__DIR__ . "/frontend/partials/head.php");
 ?>
 
-<body class="auth-page">
-    <div class="auth-background"></div>
 
-    <div class="auth-container">
-        <div class="auth-branding">
-            <h1 class="auth-logo">PawTrack</h1>
-            <p class="auth-tagline">Caring Made Simple<br>for You and Your Pet!</p>
-        </div>
+<!-- DYNAMIC ROUTING -->
+<?php 
+//===== ROUTES ================
+$routes = [
+    "/" => "frontend/login.php",
+    "/signup" => "frontend/signup.php",
+    "/about" => "frontend/about.php",
+    "/contact" => "frontend/contact.php",
+    "/dashboard" => "frontend/dashboard.php",
+    "/faqs" => "frontend/faqs.php",
+    "/pets" => "frontend/pets.php",
+    "/admin/login" => "frontend/admin/admin-login.php",
+    "/vet/login" => "frontend/vet/vet-login.php",
+    "/admin/audit" => "frontend/admin/admin-audit.php",
+    "/admin/management" => "frontend/admin/admin-management.php",
+    "/admin/manage-users" => "frontend/admin/admin-manage-user.php",
+    "/vet/pet-details" => "frontend/vet/vet-pet-details.php",
+    "/vet/profile" => "frontend/vet/vet-profile.php",
+    "/vet/search" => "frontend/vet/vet-search.php",
+    "/vaccination" => "frontend/vaccination.php",
+    "/medical-records" => "frontend/medical-records.php",
+    "/notes" => "frontend/notes.php",
+];
 
-        <div class="auth-form-wrapper">
-            <div class="auth-form-card">
-                <h1>Client Login</h1>
-                <form class="auth-form" id="loginForm">
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="Enter your email">
-                        <span id="emailError" class="error-message"></span>
-                    </div>
+//=============================
 
-                    <div class="form-group">
-                        <label for="password">Password</label>
-                        <input type="password" id="password" name="password" placeholder="Enter password">
-                        <span id="passwordError" class="error-message"></span>
-                    </div>
+if (preg_match('#^/pets/([A-Za-z0-9]+)$#', $path, $matches)) {
+    $_GET['pet_id'] = $matches[1]; // store PetID in GET
+    include "frontend/pets.php";
+    exit;
+}
 
-                    <button type="submit" id="signInBtn" class="auth-btn">Sign In</button>
-
-                    <div class="auth-link">
-                        <a href="/pawtrack/frontend/signup.php">No account? Sign up</a>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="/pawtrack/assets/js/login.js"></script>
-</body>
-
+if (isset($routes[$path])) {
+    include $routes[$path];
+} else {
+    // Route not found -> send 404 and show friendly page
+    http_response_code(404);
+    // make $path available to the 404 template
+    include __DIR__ . "/frontend/404.php";
+    exit;
+}
+?>
+  
 </html>
 
-?>

@@ -1,12 +1,11 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/admin-session.php");
+include(__DIR__ . "/../partials/admin-session.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <?php
 $pageTitle = "PawTrack - Admin Management";
-include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
 ?>
 
 <body>
@@ -17,15 +16,22 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
     <nav class="navbar admin-navbar">
         <div class="nav-container">
             <div class="logo">PawTrack</div>
-            <div class="admin-search-bar">
-                <input type="text" placeholder="Search User by Name / Email / ID" class="admin-search-input">
-                <button class="admin-search-btn">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
+            
+            <?php if (session_status() !== PHP_SESSION_ACTIVE) session_start();
+            $adminId = $_SESSION['AdminID'] ?? '';
+            $adminPic = $_SESSION['AdminPic'] ?? '';
+            $adminName = trim(($_SESSION['AdminFName'] ?? '') . ' ' . ($_SESSION['AdminSName'] ?? ''));
+            $adminEmail = $_SESSION['AdminEmail'] ?? '';
+            ?>
+            <div class="admin-nav-icon" data-user-id="<?= htmlspecialchars($adminId) ?>" data-user-role="admin">
+                <?php if ($adminPic): ?>
+                    <img src="<?= htmlspecialchars($adminPic) ?>" alt="Admin avatar" class="user-avatar" style="width:28px;height:28px;border-radius:50%;object-fit:cover;" />
+                <?php else: ?>
+                    <i class="fa-solid fa-user"></i>
+                <?php endif; ?>
             </div>
-            <div class="admin-nav-icon">
-                <i class="fa-solid fa-user"></i>
-            </div>
+            <span class="user-name" style="display:none"><?= htmlspecialchars($adminName) ?></span>
+            <span class="user-email" style="display:none"><?= htmlspecialchars($adminEmail) ?></span>
         </div>
     </nav>
 
@@ -34,19 +40,21 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
         <!-- Sidebar -->
         <aside class="admin-sidebar">
             <div class="admin-profile-card">
-                <img src="/pawtrack/storage/images/admin/<?= $pic ?>" alt="Admin Profile" class="vet-profile-image">
+                <img src="<?= htmlspecialchars($pic) ?>" alt="Admin Profile" class="vet-profile-image">
                 <h3 class="admin-title">Admin</h3>
                 <p class="admin-subtitle"><?= $fname . ' ' . $sname ?></p>
 
                 <div class="admin-menu">
-                    <button class="admin-menu-item active" onclick="location.href='admin-management.php'">
+                    <button class="admin-menu-item active" onclick="location.href='/admin/management'">
                         <i class="fa-solid fa-users-gear"></i> Management
                     </button>
-                    <button class="admin-menu-item" onclick="location.href='admin-audit.php'">
+                    <!--
+                    <button class="admin-menu-item" onclick="location.href='/admin/audit'">
                         <i class="fa-solid fa-clock-rotate-left"></i> Audit Logs
                     </button>
+                     -->
                 </div>
-
+                
                 <button class="admin-logout-btn" onclick="adminLogout()">
                     <i class="fa-solid fa-right-from-bracket"></i> Log Out
                 </button>
@@ -57,16 +65,17 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
         <main class="admin-content-area">
             <div class="admin-actions-grid">
                 <!-- Manage Users Card -->
-                <div class="admin-action-card" onclick="location.href='admin-manage-users.php'">
+                <div class="admin-action-card" onclick="location.href='/admin/manage-users'">
                     <i class="fa-solid fa-user-plus admin-action-icon"></i>
                     <h3 class="admin-action-title">Manage Users</h3>
                 </div>
 
-                <!-- Edit User Card -->
+                <!-- Edit User Card 
                 <div class="admin-action-card" onclick="alert('Edit User feature')">
                     <i class="fa-solid fa-pen admin-action-icon"></i>
                     <h3 class="admin-action-title">Edit User</h3>
                 </div>
+                -->
             </div>
         </main>
     </div>
@@ -75,7 +84,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pawtrack/frontend/partials/head.php");
     <div class="paw-pattern"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src=" /pawtrack/assets/js/script.js"></script>
+    <script src="/assets/js/script.js"></script>
 </body>
 
 </html>
